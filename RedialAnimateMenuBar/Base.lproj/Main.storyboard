@@ -16,6 +16,7 @@
                 <tabBarController storyboardIdentifier="TabBarVC" automaticallyAdjustsScrollViewInsets="NO" id="EcM-dD-4mn" customClass="MyTabBarVC" customModule="RedialAnimateMenuBar" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FzX-vu-wav" customClass="CustomizedTabBar" customModule="RedialAnimateMenuBar" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -39,37 +40,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mqt-6W-6SF">
-                                <rect key="frame" x="157.5" y="588" width="60" height="60"/>
-                                <color key="backgroundColor" red="0.2884461993898062" green="0.69043787791154498" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3IT-RQ-MPC" customClass="FanMenu" customModule="FanMenu">
+                                <rect key="frame" x="0.0" y="493" width="375" height="250"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="bIm-8W-P7S"/>
-                                    <constraint firstAttribute="height" constant="60" id="w0x-8o-US2"/>
+                                    <constraint firstAttribute="height" constant="250" id="php-hw-LAc"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="+">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="35"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="menuAction:" destination="Vu3-hn-IwJ" eventType="touchUpInside" id="OmC-CQ-GzR"/>
-                                </connections>
-                            </button>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Mqt-6W-6SF" firstAttribute="centerX" secondItem="ysw-JQ-gRh" secondAttribute="centerX" id="jcI-OE-sRa"/>
-                            <constraint firstItem="ysw-JQ-gRh" firstAttribute="bottom" secondItem="Mqt-6W-6SF" secondAttribute="centerY" id="uEZ-u6-tTm"/>
+                            <constraint firstItem="ysw-JQ-gRh" firstAttribute="bottom" secondItem="3IT-RQ-MPC" secondAttribute="centerY" id="8av-gw-cZx"/>
+                            <constraint firstItem="3IT-RQ-MPC" firstAttribute="leading" secondItem="ysw-JQ-gRh" secondAttribute="leading" id="qNA-Sy-6wv"/>
+                            <constraint firstItem="ysw-JQ-gRh" firstAttribute="trailing" secondItem="3IT-RQ-MPC" secondAttribute="trailing" id="rQW-ih-yRT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ysw-JQ-gRh"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="About US" image="menu" selectedImage="menu" id="BnG-EX-kSF"/>
                     <connections>
-                        <outlet property="btnMenu" destination="Mqt-6W-6SF" id="JGv-vw-MdD"/>
+                        <outlet property="vwMenu" destination="3IT-RQ-MPC" id="rbQ-sD-L3B"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ea7-4m-rNP" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -150,7 +139,6 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="menuAction:" destination="Q6Y-n4-jvw" eventType="touchUpInside" id="DJB-sO-KIG"/>
-                                    <action selector="menuAction:" destination="Vu3-hn-IwJ" eventType="touchUpInside" id="o9m-ia-fvj"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -198,7 +186,6 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="menAction:" destination="AQL-cf-3YT" eventType="touchUpInside" id="ldw-Ps-2Za"/>
-                                    <action selector="menuAction:" destination="Vu3-hn-IwJ" eventType="touchUpInside" id="5af-0g-VFR"/>
                                 </connections>
                             </button>
                         </subviews>

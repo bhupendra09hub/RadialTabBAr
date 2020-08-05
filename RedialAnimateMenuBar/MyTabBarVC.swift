@@ -7,7 +7,8 @@
 //
 
 import UIKit
-
+import Macaw
+import FanMenu
 class MyTabBarVC: UITabBarController {
     //MARK:- ViewDidLoad
     override func viewDidLoad() {
