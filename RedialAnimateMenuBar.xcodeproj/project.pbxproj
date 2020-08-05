@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		04CF15F124D9621C0018BD93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF15F024D9621C0018BD93 /* AppDelegate.swift */; };
-		04CF15F324D9621C0018BD93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF15F224D9621C0018BD93 /* ViewController.swift */; };
 		04CF15F624D9621C0018BD93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CF15F424D9621C0018BD93 /* Main.storyboard */; };
 		04CF15F924D9621C0018BD93 /* RedialAnimateMenuBar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04CF15F724D9621C0018BD93 /* RedialAnimateMenuBar.xcdatamodeld */; };
 		04CF15FB24D9621D0018BD93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CF15FA24D9621D0018BD93 /* Assets.xcassets */; };
 		04CF15FE24D9621D0018BD93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CF15FC24D9621D0018BD93 /* LaunchScreen.storyboard */; };
+		04CF160724D96F470018BD93 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF160624D96F470018BD93 /* SecondVC.swift */; };
+		04CF160924D96F570018BD93 /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF160824D96F570018BD93 /* ThirdVC.swift */; };
+		04CF160B24D96F6B0018BD93 /* FourthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF160A24D96F6B0018BD93 /* FourthVC.swift */; };
+		04CF160D24D96F810018BD93 /* FifthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF160C24D96F810018BD93 /* FifthVC.swift */; };
+		04CF160F24D9737B0018BD93 /* MyTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF160E24D9737B0018BD93 /* MyTabBarVC.swift */; };
+		04CF161124D981440018BD93 /* CustomizedTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF161024D981440018BD93 /* CustomizedTabBar.swift */; };
+		04CF161324D988EF0018BD93 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF161224D988EF0018BD93 /* Extension.swift */; };
+		9B7FE8857841032AAB5B466C /* Pods_RedialAnimateMenuBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA542EF925BA7E8F98E0357 /* Pods_RedialAnimateMenuBar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04CF15ED24D9621C0018BD93 /* RedialAnimateMenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedialAnimateMenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CF15F024D9621C0018BD93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04CF15F224D9621C0018BD93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04CF15F524D9621C0018BD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04CF15F824D9621C0018BD93 /* RedialAnimateMenuBar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RedialAnimateMenuBar.xcdatamodel; sourceTree = "<group>"; };
 		04CF15FA24D9621D0018BD93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04CF15FD24D9621D0018BD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04CF15FF24D9621D0018BD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CF160624D96F470018BD93 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		04CF160824D96F570018BD93 /* ThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
+		04CF160A24D96F6B0018BD93 /* FourthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthVC.swift; sourceTree = "<group>"; };
+		04CF160C24D96F810018BD93 /* FifthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthVC.swift; sourceTree = "<group>"; };
+		04CF160E24D9737B0018BD93 /* MyTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarVC.swift; sourceTree = "<group>"; };
+		04CF161024D981440018BD93 /* CustomizedTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizedTabBar.swift; sourceTree = "<group>"; };
+		04CF161224D988EF0018BD93 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		7ECBFC3BEB830E79E27D5933 /* Pods-RedialAnimateMenuBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedialAnimateMenuBar.debug.xcconfig"; path = "Target Support Files/Pods-RedialAnimateMenuBar/Pods-RedialAnimateMenuBar.debug.xcconfig"; sourceTree = "<group>"; };
+		93D8B53036FCD5820298236B /* Pods-RedialAnimateMenuBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedialAnimateMenuBar.release.xcconfig"; path = "Target Support Files/Pods-RedialAnimateMenuBar/Pods-RedialAnimateMenuBar.release.xcconfig"; sourceTree = "<group>"; };
+		DFA542EF925BA7E8F98E0357 /* Pods_RedialAnimateMenuBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedialAnimateMenuBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7FE8857841032AAB5B466C /* Pods_RedialAnimateMenuBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				04CF15EF24D9621C0018BD93 /* RedialAnimateMenuBar */,
 				04CF15EE24D9621C0018BD93 /* Products */,
+				7D150BBCB5BF07129F12853D /* Pods */,
+				A7D7F791BD6F35136A71B6EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +76,13 @@
 			isa = PBXGroup;
 			children = (
 				04CF15F024D9621C0018BD93 /* AppDelegate.swift */,
-				04CF15F224D9621C0018BD93 /* ViewController.swift */,
+				04CF160E24D9737B0018BD93 /* MyTabBarVC.swift */,
+				04CF160624D96F470018BD93 /* SecondVC.swift */,
+				04CF160824D96F570018BD93 /* ThirdVC.swift */,
+				04CF160A24D96F6B0018BD93 /* FourthVC.swift */,
+				04CF160C24D96F810018BD93 /* FifthVC.swift */,
+				04CF161024D981440018BD93 /* CustomizedTabBar.swift */,
+				04CF161224D988EF0018BD93 /* Extension.swift */,
 				04CF15F424D9621C0018BD93 /* Main.storyboard */,
 				04CF15FA24D9621D0018BD93 /* Assets.xcassets */,
 				04CF15FC24D9621D0018BD93 /* LaunchScreen.storyboard */,
@@ -67,6 +92,23 @@
 			path = RedialAnimateMenuBar;
 			sourceTree = "<group>";
 		};
+		7D150BBCB5BF07129F12853D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ECBFC3BEB830E79E27D5933 /* Pods-RedialAnimateMenuBar.debug.xcconfig */,
+				93D8B53036FCD5820298236B /* Pods-RedialAnimateMenuBar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A7D7F791BD6F35136A71B6EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFA542EF925BA7E8F98E0357 /* Pods_RedialAnimateMenuBar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04CF160224D9621D0018BD93 /* Build configuration list for PBXNativeTarget "RedialAnimateMenuBar" */;
 			buildPhases = (
+				8CC04E34F810D7C673A05081 /* [CP] Check Pods Manifest.lock */,
 				04CF15E924D9621C0018BD93 /* Sources */,
 				04CF15EA24D9621C0018BD93 /* Frameworks */,
 				04CF15EB24D9621C0018BD93 /* Resources */,
+				0D574A5A600B8DEB13F24368 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +177,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D574A5A600B8DEB13F24368 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RedialAnimateMenuBar/Pods-RedialAnimateMenuBar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RedialAnimateMenuBar/Pods-RedialAnimateMenuBar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RedialAnimateMenuBar/Pods-RedialAnimateMenuBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CC04E34F810D7C673A05081 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedialAnimateMenuBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04CF15E924D9621C0018BD93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04CF15F324D9621C0018BD93 /* ViewController.swift in Sources */,
+				04CF161324D988EF0018BD93 /* Extension.swift in Sources */,
+				04CF160B24D96F6B0018BD93 /* FourthVC.swift in Sources */,
+				04CF160D24D96F810018BD93 /* FifthVC.swift in Sources */,
 				04CF15F124D9621C0018BD93 /* AppDelegate.swift in Sources */,
+				04CF160724D96F470018BD93 /* SecondVC.swift in Sources */,
+				04CF161124D981440018BD93 /* CustomizedTabBar.swift in Sources */,
 				04CF15F924D9621C0018BD93 /* RedialAnimateMenuBar.xcdatamodeld in Sources */,
+				04CF160F24D9737B0018BD93 /* MyTabBarVC.swift in Sources */,
+				04CF160924D96F570018BD93 /* ThirdVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +376,7 @@
 		};
 		04CF160324D9621D0018BD93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ECBFC3BEB830E79E27D5933 /* Pods-RedialAnimateMenuBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +394,7 @@
 		};
 		04CF160424D9621D0018BD93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93D8B53036FCD5820298236B /* Pods-RedialAnimateMenuBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

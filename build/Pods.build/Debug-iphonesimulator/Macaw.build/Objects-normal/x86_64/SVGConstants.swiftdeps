@@ -1,0 +1,243 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SVGConstants"
+provides-nominal:
+- "5Macaw12SVGConstantsC"
+provides-member:
+- ["5Macaw12SVGConstantsC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private "Bool"
+- "Dictionary"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "LineCap"
+- "LineJoin"
+- "SVGConstants"
+- "String"
+- "StringLiteralType"
+depends-member:
+- !private ["Sa", "first"]
+- !private ["Sa", "map"]
+- !private ["s13ArrayProtocolP", "first"]
+- !private ["s13ArrayProtocolP", "map"]
+- !private ["SK", "first"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "first"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "first"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "map"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["5Macaw21ContentsInterpolationP", "first"]
+- !private ["5Macaw21ContentsInterpolationP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "first"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["Se", "filter"]
+- !private ["Se", "first"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["SD", "filter"]
+- !private ["SD", "map"]
+- !private ["SE", "filter"]
+- !private ["SE", "first"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "map"]
+- ["SQ", "butt"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "first"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "map"]
+- ["SQ", "miter"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "filter"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "map"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "butt"]
+- !private ["SH", "filter"]
+- !private ["SH", "first"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "map"]
+- ["SH", "miter"]
+- !private ["5Macaw12InterpolableP", "first"]
+- !private ["5Macaw12InterpolableP", "map"]
+- ["5Macaw7LineCapO", "butt"]
+- ["5Macaw8LineJoinO", "miter"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "first"]
+- !private ["SM", "map"]
+- !private ["Sk", "first"]
+- !private ["Sk", "map"]
+- !private ["Sm", "first"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "map"]
+- !private ["5Macaw12SVGConstantsC", "Bool"]
+- ["5Macaw12SVGConstantsC", "Int"]
+- ["5Macaw12SVGConstantsC", "LineCap"]
+- ["5Macaw12SVGConstantsC", "LineJoin"]
+- !private ["5Macaw12SVGConstantsC", "SVGConstants"]
+- ["5Macaw12SVGConstantsC", "String"]
+- ["5Macaw12SVGConstantsC", "colorList"]
+- ["5Macaw12SVGConstantsC", "defaultStrokeLineCap"]
+- ["5Macaw12SVGConstantsC", "defaultStrokeLineJoin"]
+- ["5Macaw12SVGConstantsC", "init"]
+- ["5Macaw12SVGConstantsC", "systemColorList"]
+- ["5Macaw12SVGConstantsC", "valueToColor"]
+- !private ["ST", "filter"]
+- !private ["ST", "first"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "map"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["9SWXMLHash26XMLAttributeDeserializableP", "init"]
+- ["9SWXMLHash26XMLAttributeDeserializableP", "init"]
+- ["9SWXMLHash24XMLElementDeserializableP", "init"]
+- ["9SWXMLHash24XMLElementDeserializableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "5Macaw21ContentsInterpolationP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "SD"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "5Macaw12InterpolableP"
+- "5Macaw7LineCapO"
+- "5Macaw8LineJoinO"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "Sk"
+- "Sm"
+- "5Macaw12SVGConstantsC"
+- "ST"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "9SWXMLHash26XMLAttributeDeserializableP"
+- "9SWXMLHash24XMLElementDeserializableP"
+- !private "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/SWXMLHash/SWXMLHash.framework/Modules/SWXMLHash.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/Target Support Files/SWXMLHash/SWXMLHash-umbrella.h"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/Target Support Files/Macaw/Macaw-umbrella.h"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/SWXMLHash/SWXMLHash.framework/Headers/SWXMLHash-Swift.h"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Pods.build/Debug-iphonesimulator/Macaw.build/unextended-module.modulemap"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Pods.build/Debug-iphonesimulator/SWXMLHash.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d602c5822f697befe92e9cf0bc072a79"

@@ -1,0 +1,119 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/FanMenu/FanMenu.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FanMenu-Swift.h",
+          'external-contents': "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/FanMenu/FanMenu.framework/Headers/FanMenu-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FanMenu-umbrella.h",
+          'external-contents': "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/Target Support Files/FanMenu/FanMenu-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "FanMenu.h",
+          'external-contents': "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/FanMenu/Sources/FanMenu.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/FanMenu/FanMenu.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Pods.build/Debug-iphonesimulator/FanMenu.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/Macaw/Macaw.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Macaw-Swift.h",
+          'external-contents': "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/Macaw/Macaw.framework/Headers/Macaw-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Macaw-umbrella.h",
+          'external-contents': "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/Target Support Files/Macaw/Macaw-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/Macaw/Macaw.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Pods.build/Debug-iphonesimulator/Macaw.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/Pods_RedialAnimateMenuBar.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-RedialAnimateMenuBar-umbrella.h",
+          'external-contents': "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/Target Support Files/Pods-RedialAnimateMenuBar/Pods-RedialAnimateMenuBar-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_RedialAnimateMenuBar-Swift.h",
+          'external-contents': "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/Pods_RedialAnimateMenuBar.framework/Headers/Pods_RedialAnimateMenuBar-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/Pods_RedialAnimateMenuBar.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Pods.build/Debug-iphonesimulator/Pods-RedialAnimateMenuBar.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/SWXMLHash/SWXMLHash.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SWXMLHash-Swift.h",
+          'external-contents': "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/SWXMLHash/SWXMLHash.framework/Headers/SWXMLHash-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SWXMLHash-umbrella.h",
+          'external-contents': "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/Target Support Files/SWXMLHash/SWXMLHash-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/SWXMLHash/SWXMLHash.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Pods.build/Debug-iphonesimulator/SWXMLHash.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

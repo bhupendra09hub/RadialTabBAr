@@ -1,0 +1,928 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["5Macaw5ColorC", ""]
+- ["5Macaw9TransformC", ""]
+- ["5Macaw8LineJoinO", ""]
+- ["5Macaw7LineCapO", ""]
+- ["5Macaw4RectC", ""]
+- ["So6CGRectV", ""]
+- ["5Macaw4SizeC", ""]
+- ["So6CGSizeV", ""]
+- ["5Macaw5PointC", ""]
+- ["So7CGPointV", ""]
+- ["5Macaw5LocusC", ""]
+- ["So17CGAffineTransformV", ""]
+- ["5Macaw4NodeC", ""]
+- ["So12UIBezierPathC", ""]
+- ["So9CGPathRefa", ""]
+- ["5Macaw5ColorC", "toCG"]
+- ["5Macaw9TransformC", "toCG"]
+- ["5Macaw8LineJoinO", "toCG"]
+- ["5Macaw7LineCapO", "toCG"]
+- ["5Macaw4RectC", "toCG"]
+- ["5Macaw4RectC", "applying"]
+- ["So6CGRectV", "toMacaw"]
+- ["5Macaw4SizeC", "toCG"]
+- ["So6CGSizeV", "toMacaw"]
+- ["5Macaw5PointC", "toCG"]
+- ["So7CGPointV", "toMacaw"]
+- ["5Macaw5LocusC", "toCGPath"]
+- ["So17CGAffineTransformV", "toMacaw"]
+- ["5Macaw4NodeC", "toNativeImage"]
+- ["So12UIBezierPathC", "toMacaw"]
+- ["So9CGPathRefa", "toMacaw"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "..<"
+- !private "/"
+- !private "Array"
+- !private "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CGAffineTransform"
+- "CGColor"
+- !private "CGFloat"
+- "CGLineCap"
+- "CGLineJoin"
+- "CGPath"
+- "CGPathElement"
+- "CGPoint"
+- "CGRect"
+- "CGSize"
+- "Color"
+- "ContentLayout"
+- !private "Double"
+- "FillRule"
+- !private "FloatLiteralType"
+- !private "Int"
+- !private "IntegerLiteralType"
+- !private "LayoutHelper"
+- "LineCap"
+- "LineJoin"
+- "Locus"
+- "MBezierPath"
+- !private "MColor"
+- !private "MGraphicsBeginImageContextWithOptions"
+- !private "MGraphicsEndImageContext"
+- !private "MGraphicsGetCurrentContext"
+- !private "MGraphicsGetImageFromCurrentImageContext"
+- "MImage"
+- "Node"
+- "Path"
+- !private "PathSegment"
+- !private "PathSegmentType"
+- "Point"
+- "Rect"
+- !private "RenderUtils"
+- "Size"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- "Transform"
+- !private "UnsafeMutablePointer"
+- !private "UnsafeMutableRawPointer"
+- !private "UnsafePointer"
+- "Void"
+- !private "fatalError"
+- !private "unsafeBitCast"
+depends-member:
+- !private ["5Macaw17AnimationObserverP", "render"]
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["SK", "append"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SB", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So17CGAffineTransformV", "Double"]
+- ["So17CGAffineTransformV", "Transform"]
+- !private ["So17CGAffineTransformV", "a"]
+- !private ["So17CGAffineTransformV", "b"]
+- !private ["So17CGAffineTransformV", "c"]
+- !private ["So17CGAffineTransformV", "d"]
+- !private ["So17CGAffineTransformV", "init"]
+- ["So17CGAffineTransformV", "toMacaw"]
+- !private ["So17CGAffineTransformV", "tx"]
+- !private ["So17CGAffineTransformV", "ty"]
+- !private ["So12CGContextRefa", "clear"]
+- !private ["So12CGContextRefa", "concatenate"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["So9CGLineCapV", "butt"]
+- !private ["So9CGLineCapV", "round"]
+- !private ["So9CGLineCapV", "square"]
+- !private ["So10CGLineJoinV", "bevel"]
+- !private ["So10CGLineJoinV", "miter"]
+- !private ["So10CGLineJoinV", "round"]
+- ["So9CGPathRefa", "CGPathElement"]
+- !private ["So9CGPathRefa", "CGPoint"]
+- !private ["So9CGPathRefa", "Double"]
+- ["So9CGPathRefa", "FillRule"]
+- !private ["So9CGPathRefa", "Int"]
+- ["So9CGPathRefa", "Path"]
+- !private ["So9CGPathRefa", "PathSegment"]
+- !private ["So9CGPathRefa", "PathSegmentType"]
+- !private ["So9CGPathRefa", "UnsafeMutablePointer"]
+- !private ["So9CGPathRefa", "UnsafeMutableRawPointer"]
+- !private ["So9CGPathRefa", "UnsafePointer"]
+- ["So9CGPathRefa", "Void"]
+- !private ["So9CGPathRefa", "apply"]
+- !private ["So9CGPathRefa", "fatalError"]
+- !private ["So9CGPathRefa", "forEach"]
+- ["So9CGPathRefa", "toMacaw"]
+- !private ["So9CGPathRefa", "unsafeBitCast"]
+- !private ["So13CGPathElementV", "points"]
+- !private ["So13CGPathElementV", "type"]
+- !private ["So17CGPathElementTypeV", "addCurveToPoint"]
+- !private ["So17CGPathElementTypeV", "addLineToPoint"]
+- !private ["So17CGPathElementTypeV", "addQuadCurveToPoint"]
+- !private ["So17CGPathElementTypeV", "closeSubpath"]
+- !private ["So17CGPathElementTypeV", "moveToPoint"]
+- !private ["So7CGPointV", "Double"]
+- ["So7CGPointV", "Point"]
+- !private ["So7CGPointV", "init"]
+- ["So7CGPointV", "toMacaw"]
+- !private ["So7CGPointV", "x"]
+- !private ["So7CGPointV", "y"]
+- !private ["So6CGRectV", "Double"]
+- ["So6CGRectV", "Rect"]
+- !private ["So6CGRectV", "applying"]
+- !private ["So6CGRectV", "init"]
+- !private ["So6CGRectV", "origin"]
+- !private ["So6CGRectV", "size"]
+- ["So6CGRectV", "toMacaw"]
+- !private ["So6CGSizeV", "Double"]
+- ["So6CGSizeV", "Size"]
+- !private ["So6CGSizeV", "height"]
+- !private ["So6CGSizeV", "init"]
+- ["So6CGSizeV", "toMacaw"]
+- !private ["So6CGSizeV", "width"]
+- !private ["s7CVarArgP", "LayoutHelper"]
+- !private ["s7CVarArgP", "MGraphicsBeginImageContextWithOptions"]
+- !private ["s7CVarArgP", "MGraphicsEndImageContext"]
+- !private ["s7CVarArgP", "MGraphicsGetCurrentContext"]
+- !private ["s7CVarArgP", "MGraphicsGetImageFromCurrentImageContext"]
+- !private ["s7CVarArgP", "RenderUtils"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "cgColor"]
+- !private ["s7CVarArgP", "cgPath"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "mUsesEvenOddFillRule"]
+- !private ["s7CVarArgP", "opacity"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "append"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- ["5Macaw5ColorC", "CGColor"]
+- !private ["5Macaw5ColorC", "CGFloat"]
+- !private ["5Macaw5ColorC", "Double"]
+- !private ["5Macaw5ColorC", "MColor"]
+- !private ["5Macaw5ColorC", "a"]
+- !private ["5Macaw5ColorC", "b"]
+- !private ["5Macaw5ColorC", "g"]
+- !private ["5Macaw5ColorC", "r"]
+- ["5Macaw5ColorC", "toCG"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "pointee"]
+- !private ["SL", "subscript"]
+- !private ["5Macaw13ContentLayoutC", "of"]
+- !private ["5Macaw21ContentsInterpolationP", "append"]
+- !private ["5Macaw21ContentsInterpolationP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "LayoutHelper"]
+- !private ["s28CustomDebugStringConvertibleP", "MGraphicsBeginImageContextWithOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "MGraphicsEndImageContext"]
+- !private ["s28CustomDebugStringConvertibleP", "MGraphicsGetCurrentContext"]
+- !private ["s28CustomDebugStringConvertibleP", "MGraphicsGetImageFromCurrentImageContext"]
+- !private ["s28CustomDebugStringConvertibleP", "Point"]
+- !private ["s28CustomDebugStringConvertibleP", "Rect"]
+- !private ["s28CustomDebugStringConvertibleP", "RenderUtils"]
+- !private ["s28CustomDebugStringConvertibleP", "Size"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "applying"]
+- !private ["s28CustomDebugStringConvertibleP", "cgColor"]
+- !private ["s28CustomDebugStringConvertibleP", "cgPath"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "mUsesEvenOddFillRule"]
+- !private ["s28CustomDebugStringConvertibleP", "opacity"]
+- !private ["s28CustomDebugStringConvertibleP", "origin"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "toMacaw"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Double"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Point"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Rect"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Size"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "applying"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "origin"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s29CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "toMacaw"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "x"]
+- !private ["s29CustomPlaygroundQuickLookableP", "y"]
+- !private ["s17CustomReflectableP", "Double"]
+- !private ["s17CustomReflectableP", "Point"]
+- !private ["s17CustomReflectableP", "Rect"]
+- !private ["s17CustomReflectableP", "Size"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "applying"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "origin"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "toMacaw"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s17CustomReflectableP", "x"]
+- !private ["s17CustomReflectableP", "y"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "LayoutHelper"]
+- !private ["s23CustomStringConvertibleP", "MGraphicsBeginImageContextWithOptions"]
+- !private ["s23CustomStringConvertibleP", "MGraphicsEndImageContext"]
+- !private ["s23CustomStringConvertibleP", "MGraphicsGetCurrentContext"]
+- !private ["s23CustomStringConvertibleP", "MGraphicsGetImageFromCurrentImageContext"]
+- !private ["s23CustomStringConvertibleP", "RenderUtils"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "cgColor"]
+- !private ["s23CustomStringConvertibleP", "cgPath"]
+- !private ["s23CustomStringConvertibleP", "h"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "mUsesEvenOddFillRule"]
+- !private ["s23CustomStringConvertibleP", "opacity"]
+- !private ["s23CustomStringConvertibleP", "toCG"]
+- !private ["s23CustomStringConvertibleP", "w"]
+- !private ["s23CustomStringConvertibleP", "x"]
+- !private ["s23CustomStringConvertibleP", "y"]
+- !private ["Se", "Double"]
+- !private ["Se", "Point"]
+- !private ["Se", "Rect"]
+- !private ["Se", "Size"]
+- !private ["Se", "Transform"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "a"]
+- !private ["Se", "append"]
+- !private ["Se", "applying"]
+- !private ["Se", "b"]
+- !private ["Se", "c"]
+- !private ["Se", "d"]
+- !private ["Se", "height"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "origin"]
+- !private ["Se", "size"]
+- !private ["Se", "toMacaw"]
+- !private ["Se", "tx"]
+- !private ["Se", "ty"]
+- !private ["Se", "width"]
+- !private ["Se", "x"]
+- !private ["Se", "y"]
+- !private ["Sd", "init"]
+- !private ["5Macaw19DoubleInterpolationP", "init"]
+- ["5Macaw8DrawableC", "ContentLayout"]
+- !private ["5Macaw8DrawableC", "LayoutHelper"]
+- !private ["5Macaw8DrawableC", "MGraphicsBeginImageContextWithOptions"]
+- !private ["5Macaw8DrawableC", "MGraphicsEndImageContext"]
+- !private ["5Macaw8DrawableC", "MGraphicsGetCurrentContext"]
+- !private ["5Macaw8DrawableC", "MGraphicsGetImageFromCurrentImageContext"]
+- ["5Macaw8DrawableC", "MImage"]
+- !private ["5Macaw8DrawableC", "RenderUtils"]
+- ["5Macaw8DrawableC", "Size"]
+- !private ["5Macaw8DrawableC", "opacity"]
+- ["5Macaw8DrawableC", "toNativeImage"]
+- !private ["SE", "Double"]
+- !private ["SE", "Point"]
+- !private ["SE", "Rect"]
+- !private ["SE", "Size"]
+- !private ["SE", "Transform"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "a"]
+- !private ["SE", "append"]
+- !private ["SE", "applying"]
+- !private ["SE", "b"]
+- !private ["SE", "c"]
+- !private ["SE", "d"]
+- !private ["SE", "height"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "origin"]
+- !private ["SE", "size"]
+- !private ["SE", "toMacaw"]
+- !private ["SE", "tx"]
+- !private ["SE", "ty"]
+- !private ["SE", "width"]
+- !private ["SE", "x"]
+- !private ["SE", "y"]
+- !private ["SQ", "C"]
+- !private ["SQ", "CGAffineTransform"]
+- !private ["SQ", "CGFloat"]
+- !private ["SQ", "CGLineCap"]
+- !private ["SQ", "CGLineJoin"]
+- !private ["SQ", "CGPoint"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "L"]
+- !private ["SQ", "LayoutHelper"]
+- !private ["SQ", "M"]
+- !private ["SQ", "MColor"]
+- !private ["SQ", "MGraphicsBeginImageContextWithOptions"]
+- !private ["SQ", "MGraphicsEndImageContext"]
+- !private ["SQ", "MGraphicsGetCurrentContext"]
+- !private ["SQ", "MGraphicsGetImageFromCurrentImageContext"]
+- !private ["SQ", "Path"]
+- !private ["SQ", "PathSegment"]
+- !private ["SQ", "Point"]
+- !private ["SQ", "Q"]
+- !private ["SQ", "Rect"]
+- !private ["SQ", "RenderUtils"]
+- !private ["SQ", "Size"]
+- !private ["SQ", "Transform"]
+- !private ["SQ", "UnsafeMutableRawPointer"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "a"]
+- !private ["SQ", "addCurveToPoint"]
+- !private ["SQ", "addLineToPoint"]
+- !private ["SQ", "addQuadCurveToPoint"]
+- !private ["SQ", "append"]
+- !private ["SQ", "apply"]
+- !private ["SQ", "applying"]
+- !private ["SQ", "b"]
+- ["SQ", "bevel"]
+- !private ["SQ", "butt"]
+- !private ["SQ", "c"]
+- !private ["SQ", "cgColor"]
+- !private ["SQ", "cgPath"]
+- !private ["SQ", "clear"]
+- !private ["SQ", "closeSubpath"]
+- !private ["SQ", "concatenate"]
+- !private ["SQ", "d"]
+- !private ["SQ", "dx"]
+- !private ["SQ", "dy"]
+- !private ["SQ", "evenodd"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "g"]
+- !private ["SQ", "height"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "m11"]
+- !private ["SQ", "m12"]
+- !private ["SQ", "m21"]
+- !private ["SQ", "m22"]
+- !private ["SQ", "mUsesEvenOddFillRule"]
+- !private ["SQ", "miter"]
+- !private ["SQ", "moveToPoint"]
+- !private ["SQ", "nonzero"]
+- !private ["SQ", "opacity"]
+- !private ["SQ", "origin"]
+- !private ["SQ", "pointee"]
+- !private ["SQ", "r"]
+- !private ["SQ", "render"]
+- ["SQ", "round"]
+- !private ["SQ", "size"]
+- ["SQ", "square"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "toCG"]
+- !private ["SQ", "toMacaw"]
+- !private ["SQ", "tx"]
+- !private ["SQ", "ty"]
+- !private ["SQ", "unsafeBitCast"]
+- !private ["SQ", "width"]
+- !private ["SQ", "x"]
+- !private ["SQ", "y"]
+- !private ["SQ", "z"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["5Macaw4FillC", "CGColor"]
+- !private ["5Macaw4FillC", "CGFloat"]
+- !private ["5Macaw4FillC", "Double"]
+- !private ["5Macaw4FillC", "MColor"]
+- !private ["5Macaw4FillC", "a"]
+- !private ["5Macaw4FillC", "b"]
+- !private ["5Macaw4FillC", "g"]
+- !private ["5Macaw4FillC", "r"]
+- ["5Macaw4FillC", "toCG"]
+- !private ["5Macaw17FillInterpolationP", "CGFloat"]
+- !private ["5Macaw17FillInterpolationP", "Double"]
+- !private ["5Macaw17FillInterpolationP", "MColor"]
+- !private ["5Macaw17FillInterpolationP", "a"]
+- !private ["5Macaw17FillInterpolationP", "b"]
+- !private ["5Macaw17FillInterpolationP", "g"]
+- !private ["5Macaw17FillInterpolationP", "r"]
+- !private ["5Macaw8FillRuleO", "evenodd"]
+- !private ["5Macaw8FillRuleO", "nonzero"]
+- !private ["SF", "init"]
+- !private ["SH", "C"]
+- !private ["SH", "CGAffineTransform"]
+- !private ["SH", "CGFloat"]
+- !private ["SH", "CGLineCap"]
+- !private ["SH", "CGLineJoin"]
+- !private ["SH", "Double"]
+- !private ["SH", "L"]
+- !private ["SH", "LayoutHelper"]
+- !private ["SH", "M"]
+- !private ["SH", "MGraphicsBeginImageContextWithOptions"]
+- !private ["SH", "MGraphicsEndImageContext"]
+- !private ["SH", "MGraphicsGetCurrentContext"]
+- !private ["SH", "MGraphicsGetImageFromCurrentImageContext"]
+- !private ["SH", "Path"]
+- !private ["SH", "PathSegment"]
+- !private ["SH", "Q"]
+- !private ["SH", "RenderUtils"]
+- !private ["SH", "UnsafeMutableRawPointer"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "addCurveToPoint"]
+- !private ["SH", "addLineToPoint"]
+- !private ["SH", "addQuadCurveToPoint"]
+- !private ["SH", "append"]
+- !private ["SH", "apply"]
+- ["SH", "bevel"]
+- !private ["SH", "butt"]
+- !private ["SH", "cgColor"]
+- !private ["SH", "cgPath"]
+- !private ["SH", "clear"]
+- !private ["SH", "closeSubpath"]
+- !private ["SH", "concatenate"]
+- !private ["SH", "dx"]
+- !private ["SH", "dy"]
+- !private ["SH", "evenodd"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "forEach"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "m11"]
+- !private ["SH", "m12"]
+- !private ["SH", "m21"]
+- !private ["SH", "m22"]
+- !private ["SH", "mUsesEvenOddFillRule"]
+- !private ["SH", "miter"]
+- !private ["SH", "moveToPoint"]
+- !private ["SH", "nonzero"]
+- !private ["SH", "opacity"]
+- !private ["SH", "pointee"]
+- !private ["SH", "render"]
+- ["SH", "round"]
+- ["SH", "square"]
+- !private ["SH", "subscript"]
+- !private ["SH", "toCG"]
+- !private ["SH", "toMacaw"]
+- !private ["SH", "unsafeBitCast"]
+- !private ["SH", "z"]
+- !private ["5Macaw12InterpolableP", "CGAffineTransform"]
+- !private ["5Macaw12InterpolableP", "CGFloat"]
+- !private ["5Macaw12InterpolableP", "CGPoint"]
+- !private ["5Macaw12InterpolableP", "CGRect"]
+- !private ["5Macaw12InterpolableP", "Double"]
+- !private ["5Macaw12InterpolableP", "MColor"]
+- !private ["5Macaw12InterpolableP", "RenderUtils"]
+- !private ["5Macaw12InterpolableP", "a"]
+- !private ["5Macaw12InterpolableP", "append"]
+- !private ["5Macaw12InterpolableP", "b"]
+- !private ["5Macaw12InterpolableP", "dx"]
+- !private ["5Macaw12InterpolableP", "dy"]
+- !private ["5Macaw12InterpolableP", "g"]
+- !private ["5Macaw12InterpolableP", "h"]
+- !private ["5Macaw12InterpolableP", "init"]
+- !private ["5Macaw12InterpolableP", "m11"]
+- !private ["5Macaw12InterpolableP", "m12"]
+- !private ["5Macaw12InterpolableP", "m21"]
+- !private ["5Macaw12InterpolableP", "m22"]
+- !private ["5Macaw12InterpolableP", "r"]
+- !private ["5Macaw12InterpolableP", "toCG"]
+- !private ["5Macaw12InterpolableP", "w"]
+- !private ["5Macaw12InterpolableP", "x"]
+- !private ["5Macaw12InterpolableP", "y"]
+- !private ["5Macaw12LayoutHelperC", "calcTransform"]
+- ["5Macaw7LineCapO", "CGLineCap"]
+- ["5Macaw7LineCapO", "round"]
+- ["5Macaw7LineCapO", "square"]
+- ["5Macaw7LineCapO", "toCG"]
+- ["5Macaw8LineJoinO", "CGLineJoin"]
+- ["5Macaw8LineJoinO", "bevel"]
+- ["5Macaw8LineJoinO", "round"]
+- ["5Macaw8LineJoinO", "toCG"]
+- ["5Macaw5LocusC", "CGPath"]
+- ["5Macaw5LocusC", "CGPoint"]
+- ["5Macaw5LocusC", "CGRect"]
+- ["5Macaw5LocusC", "Rect"]
+- !private ["5Macaw5LocusC", "RenderUtils"]
+- ["5Macaw5LocusC", "Transform"]
+- ["5Macaw5LocusC", "applying"]
+- !private ["5Macaw5LocusC", "h"]
+- ["5Macaw5LocusC", "toCG"]
+- ["5Macaw5LocusC", "toCGPath"]
+- !private ["5Macaw5LocusC", "w"]
+- !private ["5Macaw5LocusC", "x"]
+- !private ["5Macaw5LocusC", "y"]
+- !private ["5Macaw18LocusInterpolationP", "CGPoint"]
+- !private ["5Macaw18LocusInterpolationP", "CGRect"]
+- !private ["5Macaw18LocusInterpolationP", "RenderUtils"]
+- !private ["5Macaw18LocusInterpolationP", "h"]
+- !private ["5Macaw18LocusInterpolationP", "init"]
+- !private ["5Macaw18LocusInterpolationP", "toCG"]
+- !private ["5Macaw18LocusInterpolationP", "w"]
+- !private ["5Macaw18LocusInterpolationP", "x"]
+- !private ["5Macaw18LocusInterpolationP", "y"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "init"]
+- !private ["So8NSCodingP", "cgColor"]
+- !private ["So8NSCodingP", "cgPath"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "mUsesEvenOddFillRule"]
+- !private ["So9NSCopyingP", "cgColor"]
+- !private ["So9NSCopyingP", "cgPath"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "mUsesEvenOddFillRule"]
+- !private ["So21NSItemProviderReadingP", "cgColor"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "cgColor"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- ["So8NSObjectC", "ContentLayout"]
+- !private ["So8NSObjectC", "FillRule"]
+- !private ["So8NSObjectC", "LayoutHelper"]
+- !private ["So8NSObjectC", "MGraphicsBeginImageContextWithOptions"]
+- !private ["So8NSObjectC", "MGraphicsEndImageContext"]
+- !private ["So8NSObjectC", "MGraphicsGetCurrentContext"]
+- !private ["So8NSObjectC", "MGraphicsGetImageFromCurrentImageContext"]
+- ["So8NSObjectC", "MImage"]
+- ["So8NSObjectC", "Path"]
+- !private ["So8NSObjectC", "RenderUtils"]
+- ["So8NSObjectC", "Size"]
+- !private ["So8NSObjectC", "cgColor"]
+- !private ["So8NSObjectC", "cgPath"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "mUsesEvenOddFillRule"]
+- !private ["So8NSObjectC", "opacity"]
+- ["So8NSObjectC", "toMacaw"]
+- ["So8NSObjectC", "toNativeImage"]
+- !private ["So8NSObjectP", "LayoutHelper"]
+- !private ["So8NSObjectP", "MGraphicsBeginImageContextWithOptions"]
+- !private ["So8NSObjectP", "MGraphicsEndImageContext"]
+- !private ["So8NSObjectP", "MGraphicsGetCurrentContext"]
+- !private ["So8NSObjectP", "MGraphicsGetImageFromCurrentImageContext"]
+- !private ["So8NSObjectP", "RenderUtils"]
+- !private ["So8NSObjectP", "cgColor"]
+- !private ["So8NSObjectP", "cgPath"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "mUsesEvenOddFillRule"]
+- !private ["So8NSObjectP", "opacity"]
+- !private ["So14NSSecureCodingP", "cgColor"]
+- !private ["So14NSSecureCodingP", "cgPath"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "mUsesEvenOddFillRule"]
+- ["5Macaw4NodeC", "ContentLayout"]
+- !private ["5Macaw4NodeC", "LayoutHelper"]
+- !private ["5Macaw4NodeC", "MGraphicsBeginImageContextWithOptions"]
+- !private ["5Macaw4NodeC", "MGraphicsEndImageContext"]
+- !private ["5Macaw4NodeC", "MGraphicsGetCurrentContext"]
+- !private ["5Macaw4NodeC", "MGraphicsGetImageFromCurrentImageContext"]
+- ["5Macaw4NodeC", "MImage"]
+- !private ["5Macaw4NodeC", "RenderUtils"]
+- ["5Macaw4NodeC", "Size"]
+- !private ["5Macaw4NodeC", "opacity"]
+- ["5Macaw4NodeC", "toNativeImage"]
+- !private ["5Macaw12NodeRendererC", "render"]
+- !private ["Sj", "init"]
+- !private ["5Macaw4PathC", "init"]
+- !private ["5Macaw11PathSegmentC", "init"]
+- !private ["5Macaw15PathSegmentTypeO", "C"]
+- !private ["5Macaw15PathSegmentTypeO", "L"]
+- !private ["5Macaw15PathSegmentTypeO", "M"]
+- !private ["5Macaw15PathSegmentTypeO", "Q"]
+- !private ["5Macaw15PathSegmentTypeO", "z"]
+- ["5Macaw5PointC", "CGPoint"]
+- !private ["5Macaw5PointC", "init"]
+- ["5Macaw5PointC", "toCG"]
+- !private ["5Macaw5PointC", "x"]
+- !private ["5Macaw5PointC", "y"]
+- !private ["Sk", "append"]
+- !private ["Sk", "init"]
+- !private ["Sm", "append"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["SY", "addCurveToPoint"]
+- !private ["SY", "addLineToPoint"]
+- !private ["SY", "addQuadCurveToPoint"]
+- !private ["SY", "bevel"]
+- !private ["SY", "butt"]
+- !private ["SY", "closeSubpath"]
+- !private ["SY", "miter"]
+- !private ["SY", "moveToPoint"]
+- !private ["SY", "round"]
+- !private ["SY", "square"]
+- ["5Macaw4RectC", "CGRect"]
+- ["5Macaw4RectC", "Rect"]
+- ["5Macaw4RectC", "Transform"]
+- ["5Macaw4RectC", "applying"]
+- !private ["5Macaw4RectC", "h"]
+- !private ["5Macaw4RectC", "init"]
+- ["5Macaw4RectC", "toCG"]
+- !private ["5Macaw4RectC", "w"]
+- !private ["5Macaw4RectC", "x"]
+- !private ["5Macaw4RectC", "y"]
+- !private ["5Macaw11RenderUtilsC", "createNodeRenderer"]
+- !private ["5Macaw11RenderUtilsC", "toCGPath"]
+- !private ["ST", "append"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["s13SignedNumericP", "init"]
+- ["5Macaw4SizeC", "CGSize"]
+- !private ["5Macaw4SizeC", "h"]
+- !private ["5Macaw4SizeC", "init"]
+- !private ["5Macaw4SizeC", "rect"]
+- ["5Macaw4SizeC", "toCG"]
+- !private ["5Macaw4SizeC", "w"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- !private ["Sx", "pointee"]
+- !private ["Sx", "subscript"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["5Macaw9TransformC", "CGAffineTransform"]
+- !private ["5Macaw9TransformC", "CGFloat"]
+- !private ["5Macaw9TransformC", "dx"]
+- !private ["5Macaw9TransformC", "dy"]
+- !private ["5Macaw9TransformC", "init"]
+- !private ["5Macaw9TransformC", "m11"]
+- !private ["5Macaw9TransformC", "m12"]
+- !private ["5Macaw9TransformC", "m21"]
+- !private ["5Macaw9TransformC", "m22"]
+- ["5Macaw9TransformC", "toCG"]
+- !private ["5Macaw22TransformInterpolationP", "CGAffineTransform"]
+- !private ["5Macaw22TransformInterpolationP", "CGFloat"]
+- !private ["5Macaw22TransformInterpolationP", "dx"]
+- !private ["5Macaw22TransformInterpolationP", "dy"]
+- !private ["5Macaw22TransformInterpolationP", "init"]
+- !private ["5Macaw22TransformInterpolationP", "m11"]
+- !private ["5Macaw22TransformInterpolationP", "m12"]
+- !private ["5Macaw22TransformInterpolationP", "m21"]
+- !private ["5Macaw22TransformInterpolationP", "m22"]
+- !private ["5Macaw22TransformInterpolationP", "toCG"]
+- !private ["So12UIBezierPathC", "FillRule"]
+- ["So12UIBezierPathC", "Path"]
+- !private ["So12UIBezierPathC", "cgPath"]
+- !private ["So12UIBezierPathC", "mUsesEvenOddFillRule"]
+- ["So12UIBezierPathC", "toMacaw"]
+- !private ["So7UIColorC", "cgColor"]
+- !private ["So7UIColorC", "init"]
+- !private ["Sp", "subscript"]
+- !private ["SP", "pointee"]
+- !private ["9SWXMLHash26XMLAttributeDeserializableP", "_getBuiltinLogicValue"]
+- !private ["9SWXMLHash26XMLAttributeDeserializableP", "init"]
+- !private ["9SWXMLHash26XMLAttributeDeserializableP", "init"]
+- !private ["9SWXMLHash24XMLElementDeserializableP", "_getBuiltinLogicValue"]
+- !private ["9SWXMLHash24XMLElementDeserializableP", "init"]
+- !private ["9SWXMLHash24XMLElementDeserializableP", "init"]
+- !private ["14CoreFoundation9_CFObjectP", "Double"]
+- !private ["14CoreFoundation9_CFObjectP", "Path"]
+- !private ["14CoreFoundation9_CFObjectP", "PathSegment"]
+- !private ["14CoreFoundation9_CFObjectP", "UnsafeMutableRawPointer"]
+- !private ["14CoreFoundation9_CFObjectP", "apply"]
+- !private ["14CoreFoundation9_CFObjectP", "clear"]
+- !private ["14CoreFoundation9_CFObjectP", "concatenate"]
+- !private ["14CoreFoundation9_CFObjectP", "fatalError"]
+- !private ["14CoreFoundation9_CFObjectP", "forEach"]
+- !private ["14CoreFoundation9_CFObjectP", "toMacaw"]
+- !private ["14CoreFoundation9_CFObjectP", "unsafeBitCast"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "cgColor"]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LayoutHelper"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MGraphicsBeginImageContextWithOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MGraphicsEndImageContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MGraphicsGetCurrentContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MGraphicsGetImageFromCurrentImageContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RenderUtils"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mUsesEvenOddFillRule"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "opacity"]
+- !private ["s21_ObjectiveCBridgeableP", "Double"]
+- !private ["s21_ObjectiveCBridgeableP", "Point"]
+- !private ["s21_ObjectiveCBridgeableP", "Rect"]
+- !private ["s21_ObjectiveCBridgeableP", "Size"]
+- !private ["s21_ObjectiveCBridgeableP", "Transform"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "a"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "applying"]
+- !private ["s21_ObjectiveCBridgeableP", "b"]
+- !private ["s21_ObjectiveCBridgeableP", "c"]
+- !private ["s21_ObjectiveCBridgeableP", "d"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "origin"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "toMacaw"]
+- !private ["s21_ObjectiveCBridgeableP", "tx"]
+- !private ["s21_ObjectiveCBridgeableP", "ty"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s21_ObjectiveCBridgeableP", "x"]
+- !private ["s21_ObjectiveCBridgeableP", "y"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s8_PointerP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "5Macaw17AnimationObserverP"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "SB"
+- !private "Sb"
+- "So17CGAffineTransformV"
+- !private "So12CGContextRefa"
+- !private "12CoreGraphics7CGFloatV"
+- !private "So9CGLineCapV"
+- !private "So10CGLineJoinV"
+- "So9CGPathRefa"
+- !private "So13CGPathElementV"
+- !private "So17CGPathElementTypeV"
+- "So7CGPointV"
+- "So6CGRectV"
+- "So6CGSizeV"
+- !private "s7CVarArgP"
+- !private "Sl"
+- "5Macaw5ColorC"
+- !private "SL"
+- !private "5Macaw13ContentLayoutC"
+- !private "5Macaw21ContentsInterpolationP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "Sd"
+- !private "5Macaw19DoubleInterpolationP"
+- "5Macaw8DrawableC"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "5Macaw4FillC"
+- !private "5Macaw17FillInterpolationP"
+- !private "5Macaw8FillRuleO"
+- !private "SF"
+- "SH"
+- !private "5Macaw12InterpolableP"
+- !private "5Macaw12LayoutHelperC"
+- "5Macaw7LineCapO"
+- "5Macaw8LineJoinO"
+- "5Macaw5LocusC"
+- !private "5Macaw18LocusInterpolationP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "5Macaw4NodeC"
+- !private "5Macaw12NodeRendererC"
+- !private "Sj"
+- !private "5Macaw4PathC"
+- !private "5Macaw11PathSegmentC"
+- !private "5Macaw15PathSegmentTypeO"
+- "5Macaw5PointC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- "5Macaw4RectC"
+- !private "5Macaw11RenderUtilsC"
+- !private "ST"
+- !private "s13SignedNumericP"
+- "5Macaw4SizeC"
+- !private "s12StaticStringV"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "5Macaw9TransformC"
+- !private "5Macaw22TransformInterpolationP"
+- "So12UIBezierPathC"
+- !private "So7UIColorC"
+- !private "Sp"
+- !private "SP"
+- !private "9SWXMLHash26XMLAttributeDeserializableP"
+- !private "9SWXMLHash24XMLElementDeserializableP"
+- !private "14CoreFoundation9_CFObjectP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/SWXMLHash/SWXMLHash.framework/Modules/SWXMLHash.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/Target Support Files/SWXMLHash/SWXMLHash-umbrella.h"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/Target Support Files/Macaw/Macaw-umbrella.h"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/SWXMLHash/SWXMLHash.framework/Headers/SWXMLHash-Swift.h"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Pods.build/Debug-iphonesimulator/Macaw.build/unextended-module.modulemap"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Pods.build/Debug-iphonesimulator/SWXMLHash.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8bed1f20c0f9959992a99c18d94362d8"

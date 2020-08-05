@@ -1,0 +1,496 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MView"
+provides-nominal:
+- "5Macaw5MViewC"
+provides-member:
+- ["5Macaw5MViewC", ""]
+provides-dynamic-lookup:
+- "touchesBegan"
+- "touchesCancelled"
+- "touchesEnded"
+- "touchesMoved"
+depends-top-level:
+- "CALayer"
+- "MEvent"
+- "MGestureRecognizer"
+- "MTouch"
+- "MView"
+- "Set"
+- "Touchable"
+- "UIView"
+depends-member:
+- !private ["Sa", "removeAll"]
+- !private ["s13ArrayProtocolP", "removeAll"]
+- !private ["SK", "removeAll"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "gestureRecognizers"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "layer"]
+- ["So15CALayerDelegateP", "mTouchesBegan"]
+- ["So15CALayerDelegateP", "mTouchesCancelled"]
+- ["So15CALayerDelegateP", "mTouchesEnded"]
+- ["So15CALayerDelegateP", "mTouchesMoved"]
+- !private ["So15CALayerDelegateP", "touchesBegan"]
+- !private ["So15CALayerDelegateP", "touchesCancelled"]
+- !private ["So15CALayerDelegateP", "touchesEnded"]
+- !private ["So15CALayerDelegateP", "touchesMoved"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "gestureRecognizers"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "layer"]
+- ["s7CVarArgP", "mTouchesBegan"]
+- ["s7CVarArgP", "mTouchesCancelled"]
+- ["s7CVarArgP", "mTouchesEnded"]
+- ["s7CVarArgP", "mTouchesMoved"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "touchesBegan"]
+- !private ["s7CVarArgP", "touchesCancelled"]
+- !private ["s7CVarArgP", "touchesEnded"]
+- !private ["s7CVarArgP", "touchesMoved"]
+- !private ["Sl", "removeAll"]
+- !private ["5Macaw21ContentsInterpolationP", "removeAll"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "gestureRecognizers"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- ["s28CustomDebugStringConvertibleP", "mTouchesBegan"]
+- ["s28CustomDebugStringConvertibleP", "mTouchesCancelled"]
+- ["s28CustomDebugStringConvertibleP", "mTouchesEnded"]
+- ["s28CustomDebugStringConvertibleP", "mTouchesMoved"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "touchesBegan"]
+- !private ["s28CustomDebugStringConvertibleP", "touchesCancelled"]
+- !private ["s28CustomDebugStringConvertibleP", "touchesEnded"]
+- !private ["s28CustomDebugStringConvertibleP", "touchesMoved"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "gestureRecognizers"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- ["s23CustomStringConvertibleP", "mTouchesBegan"]
+- ["s23CustomStringConvertibleP", "mTouchesCancelled"]
+- ["s23CustomStringConvertibleP", "mTouchesEnded"]
+- ["s23CustomStringConvertibleP", "mTouchesMoved"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "touchesBegan"]
+- !private ["s23CustomStringConvertibleP", "touchesCancelled"]
+- !private ["s23CustomStringConvertibleP", "touchesEnded"]
+- !private ["s23CustomStringConvertibleP", "touchesMoved"]
+- !private ["Se", "removeAll"]
+- !private ["SE", "removeAll"]
+- ["SQ", ""]
+- !private ["SQ", "gestureRecognizers"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "layer"]
+- ["SQ", "mTouchesBegan"]
+- ["SQ", "mTouchesCancelled"]
+- ["SQ", "mTouchesEnded"]
+- ["SQ", "mTouchesMoved"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "touchesBegan"]
+- !private ["SQ", "touchesCancelled"]
+- !private ["SQ", "touchesEnded"]
+- !private ["SQ", "touchesMoved"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- ["SH", ""]
+- !private ["SH", "gestureRecognizers"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "layer"]
+- ["SH", "mTouchesBegan"]
+- ["SH", "mTouchesCancelled"]
+- ["SH", "mTouchesEnded"]
+- ["SH", "mTouchesMoved"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "touchesBegan"]
+- !private ["SH", "touchesCancelled"]
+- !private ["SH", "touchesEnded"]
+- !private ["SH", "touchesMoved"]
+- !private ["5Macaw12InterpolableP", "removeAll"]
+- ["5Macaw5MViewC", "CALayer"]
+- ["5Macaw5MViewC", "MEvent"]
+- ["5Macaw5MViewC", "MGestureRecognizer"]
+- ["5Macaw5MViewC", "MTouch"]
+- ["5Macaw5MViewC", "Set"]
+- ["5Macaw5MViewC", "deinit"]
+- !private ["5Macaw5MViewC", "gestureRecognizers"]
+- ["5Macaw5MViewC", "init"]
+- !private ["5Macaw5MViewC", "layer"]
+- ["5Macaw5MViewC", "mGestureRecognizers"]
+- ["5Macaw5MViewC", "mLayer"]
+- ["5Macaw5MViewC", "mTouchesBegan"]
+- ["5Macaw5MViewC", "mTouchesCancelled"]
+- ["5Macaw5MViewC", "mTouchesEnded"]
+- ["5Macaw5MViewC", "mTouchesMoved"]
+- ["5Macaw5MViewC", "removeGestureRecognizers"]
+- ["5Macaw5MViewC", "touchesBegan"]
+- ["5Macaw5MViewC", "touchesCancelled"]
+- ["5Macaw5MViewC", "touchesEnded"]
+- ["5Macaw5MViewC", "touchesMoved"]
+- !private ["SM", "removeAll"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "gestureRecognizers"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "layer"]
+- ["So8NSCodingP", "mTouchesBegan"]
+- ["So8NSCodingP", "mTouchesCancelled"]
+- ["So8NSCodingP", "mTouchesEnded"]
+- ["So8NSCodingP", "mTouchesMoved"]
+- !private ["So8NSCodingP", "touchesBegan"]
+- !private ["So8NSCodingP", "touchesCancelled"]
+- !private ["So8NSCodingP", "touchesEnded"]
+- !private ["So8NSCodingP", "touchesMoved"]
+- ["So8NSObjectC", "CALayer"]
+- ["So8NSObjectC", "MEvent"]
+- ["So8NSObjectC", "MGestureRecognizer"]
+- ["So8NSObjectC", "MTouch"]
+- ["So8NSObjectC", "Set"]
+- !private ["So8NSObjectC", "gestureRecognizers"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "layer"]
+- ["So8NSObjectC", "mGestureRecognizers"]
+- ["So8NSObjectC", "mLayer"]
+- ["So8NSObjectC", "mTouchesBegan"]
+- ["So8NSObjectC", "mTouchesCancelled"]
+- ["So8NSObjectC", "mTouchesEnded"]
+- ["So8NSObjectC", "mTouchesMoved"]
+- ["So8NSObjectC", "removeGestureRecognizers"]
+- ["So8NSObjectC", "touchesBegan"]
+- ["So8NSObjectC", "touchesCancelled"]
+- ["So8NSObjectC", "touchesEnded"]
+- ["So8NSObjectC", "touchesMoved"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "gestureRecognizers"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "layer"]
+- ["So8NSObjectP", "mTouchesBegan"]
+- ["So8NSObjectP", "mTouchesCancelled"]
+- ["So8NSObjectP", "mTouchesEnded"]
+- ["So8NSObjectP", "mTouchesMoved"]
+- !private ["So8NSObjectP", "touchesBegan"]
+- !private ["So8NSObjectP", "touchesCancelled"]
+- !private ["So8NSObjectP", "touchesEnded"]
+- !private ["So8NSObjectP", "touchesMoved"]
+- !private ["Sk", "removeAll"]
+- !private ["Sm", "removeAll"]
+- !private ["ST", "removeAll"]
+- ["5Macaw9TouchableP", ""]
+- !private ["5Macaw9TouchableP", "gestureRecognizers"]
+- !private ["5Macaw9TouchableP", "layer"]
+- ["5Macaw9TouchableP", "mTouchesBegan"]
+- ["5Macaw9TouchableP", "mTouchesCancelled"]
+- ["5Macaw9TouchableP", "mTouchesEnded"]
+- ["5Macaw9TouchableP", "mTouchesMoved"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "gestureRecognizers"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- ["So29UIAccessibilityIdentificationP", "mTouchesBegan"]
+- ["So29UIAccessibilityIdentificationP", "mTouchesCancelled"]
+- ["So29UIAccessibilityIdentificationP", "mTouchesEnded"]
+- ["So29UIAccessibilityIdentificationP", "mTouchesMoved"]
+- !private ["So29UIAccessibilityIdentificationP", "touchesBegan"]
+- !private ["So29UIAccessibilityIdentificationP", "touchesCancelled"]
+- !private ["So29UIAccessibilityIdentificationP", "touchesEnded"]
+- !private ["So29UIAccessibilityIdentificationP", "touchesMoved"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "gestureRecognizers"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "layer"]
+- ["So12UIAppearanceP", "mTouchesBegan"]
+- ["So12UIAppearanceP", "mTouchesCancelled"]
+- ["So12UIAppearanceP", "mTouchesEnded"]
+- ["So12UIAppearanceP", "mTouchesMoved"]
+- !private ["So12UIAppearanceP", "touchesBegan"]
+- !private ["So12UIAppearanceP", "touchesCancelled"]
+- !private ["So12UIAppearanceP", "touchesEnded"]
+- !private ["So12UIAppearanceP", "touchesMoved"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "gestureRecognizers"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- ["So21UIAppearanceContainerP", "mTouchesBegan"]
+- ["So21UIAppearanceContainerP", "mTouchesCancelled"]
+- ["So21UIAppearanceContainerP", "mTouchesEnded"]
+- ["So21UIAppearanceContainerP", "mTouchesMoved"]
+- !private ["So21UIAppearanceContainerP", "touchesBegan"]
+- !private ["So21UIAppearanceContainerP", "touchesCancelled"]
+- !private ["So21UIAppearanceContainerP", "touchesEnded"]
+- !private ["So21UIAppearanceContainerP", "touchesMoved"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "gestureRecognizers"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- ["So17UICoordinateSpaceP", "mTouchesBegan"]
+- ["So17UICoordinateSpaceP", "mTouchesCancelled"]
+- ["So17UICoordinateSpaceP", "mTouchesEnded"]
+- ["So17UICoordinateSpaceP", "mTouchesMoved"]
+- !private ["So17UICoordinateSpaceP", "touchesBegan"]
+- !private ["So17UICoordinateSpaceP", "touchesCancelled"]
+- !private ["So17UICoordinateSpaceP", "touchesEnded"]
+- !private ["So17UICoordinateSpaceP", "touchesMoved"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "gestureRecognizers"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "layer"]
+- ["So13UIDynamicItemP", "mTouchesBegan"]
+- ["So13UIDynamicItemP", "mTouchesCancelled"]
+- ["So13UIDynamicItemP", "mTouchesEnded"]
+- ["So13UIDynamicItemP", "mTouchesMoved"]
+- !private ["So13UIDynamicItemP", "touchesBegan"]
+- !private ["So13UIDynamicItemP", "touchesCancelled"]
+- !private ["So13UIDynamicItemP", "touchesEnded"]
+- !private ["So13UIDynamicItemP", "touchesMoved"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "gestureRecognizers"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- ["So18UIFocusEnvironmentP", "mTouchesBegan"]
+- ["So18UIFocusEnvironmentP", "mTouchesCancelled"]
+- ["So18UIFocusEnvironmentP", "mTouchesEnded"]
+- ["So18UIFocusEnvironmentP", "mTouchesMoved"]
+- !private ["So18UIFocusEnvironmentP", "touchesBegan"]
+- !private ["So18UIFocusEnvironmentP", "touchesCancelled"]
+- !private ["So18UIFocusEnvironmentP", "touchesEnded"]
+- !private ["So18UIFocusEnvironmentP", "touchesMoved"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "gestureRecognizers"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "layer"]
+- ["So11UIFocusItemP", "mTouchesBegan"]
+- ["So11UIFocusItemP", "mTouchesCancelled"]
+- ["So11UIFocusItemP", "mTouchesEnded"]
+- ["So11UIFocusItemP", "mTouchesMoved"]
+- !private ["So11UIFocusItemP", "touchesBegan"]
+- !private ["So11UIFocusItemP", "touchesCancelled"]
+- !private ["So11UIFocusItemP", "touchesEnded"]
+- !private ["So11UIFocusItemP", "touchesMoved"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "gestureRecognizers"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "layer"]
+- ["So20UIFocusItemContainerP", "mTouchesBegan"]
+- ["So20UIFocusItemContainerP", "mTouchesCancelled"]
+- ["So20UIFocusItemContainerP", "mTouchesEnded"]
+- ["So20UIFocusItemContainerP", "mTouchesMoved"]
+- !private ["So20UIFocusItemContainerP", "touchesBegan"]
+- !private ["So20UIFocusItemContainerP", "touchesCancelled"]
+- !private ["So20UIFocusItemContainerP", "touchesEnded"]
+- !private ["So20UIFocusItemContainerP", "touchesMoved"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "gestureRecognizers"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- ["So30UIPasteConfigurationSupportingP", "mTouchesBegan"]
+- ["So30UIPasteConfigurationSupportingP", "mTouchesCancelled"]
+- ["So30UIPasteConfigurationSupportingP", "mTouchesEnded"]
+- ["So30UIPasteConfigurationSupportingP", "mTouchesMoved"]
+- !private ["So30UIPasteConfigurationSupportingP", "touchesBegan"]
+- !private ["So30UIPasteConfigurationSupportingP", "touchesCancelled"]
+- !private ["So30UIPasteConfigurationSupportingP", "touchesEnded"]
+- !private ["So30UIPasteConfigurationSupportingP", "touchesMoved"]
+- ["So11UIResponderC", "CALayer"]
+- ["So11UIResponderC", "MEvent"]
+- ["So11UIResponderC", "MGestureRecognizer"]
+- ["So11UIResponderC", "MTouch"]
+- ["So11UIResponderC", "Set"]
+- !private ["So11UIResponderC", "gestureRecognizers"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "layer"]
+- ["So11UIResponderC", "mGestureRecognizers"]
+- ["So11UIResponderC", "mLayer"]
+- ["So11UIResponderC", "mTouchesBegan"]
+- ["So11UIResponderC", "mTouchesCancelled"]
+- ["So11UIResponderC", "mTouchesEnded"]
+- ["So11UIResponderC", "mTouchesMoved"]
+- ["So11UIResponderC", "removeGestureRecognizers"]
+- ["So11UIResponderC", "touchesBegan"]
+- ["So11UIResponderC", "touchesCancelled"]
+- ["So11UIResponderC", "touchesEnded"]
+- ["So11UIResponderC", "touchesMoved"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "gestureRecognizers"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- ["So30UIResponderStandardEditActionsP", "mTouchesBegan"]
+- ["So30UIResponderStandardEditActionsP", "mTouchesCancelled"]
+- ["So30UIResponderStandardEditActionsP", "mTouchesEnded"]
+- ["So30UIResponderStandardEditActionsP", "mTouchesMoved"]
+- !private ["So30UIResponderStandardEditActionsP", "touchesBegan"]
+- !private ["So30UIResponderStandardEditActionsP", "touchesCancelled"]
+- !private ["So30UIResponderStandardEditActionsP", "touchesEnded"]
+- !private ["So30UIResponderStandardEditActionsP", "touchesMoved"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "gestureRecognizers"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- ["So18UITraitEnvironmentP", "mTouchesBegan"]
+- ["So18UITraitEnvironmentP", "mTouchesCancelled"]
+- ["So18UITraitEnvironmentP", "mTouchesEnded"]
+- ["So18UITraitEnvironmentP", "mTouchesMoved"]
+- !private ["So18UITraitEnvironmentP", "touchesBegan"]
+- !private ["So18UITraitEnvironmentP", "touchesCancelled"]
+- !private ["So18UITraitEnvironmentP", "touchesEnded"]
+- !private ["So18UITraitEnvironmentP", "touchesMoved"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "gestureRecognizers"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "layer"]
+- ["So23UIUserActivityRestoringP", "mTouchesBegan"]
+- ["So23UIUserActivityRestoringP", "mTouchesCancelled"]
+- ["So23UIUserActivityRestoringP", "mTouchesEnded"]
+- ["So23UIUserActivityRestoringP", "mTouchesMoved"]
+- !private ["So23UIUserActivityRestoringP", "touchesBegan"]
+- !private ["So23UIUserActivityRestoringP", "touchesCancelled"]
+- !private ["So23UIUserActivityRestoringP", "touchesEnded"]
+- !private ["So23UIUserActivityRestoringP", "touchesMoved"]
+- ["So6UIViewC", "CALayer"]
+- ["So6UIViewC", "MEvent"]
+- ["So6UIViewC", "MGestureRecognizer"]
+- ["So6UIViewC", "MTouch"]
+- ["So6UIViewC", "Set"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "gestureRecognizers"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "layer"]
+- ["So6UIViewC", "mGestureRecognizers"]
+- ["So6UIViewC", "mLayer"]
+- ["So6UIViewC", "mTouchesBegan"]
+- ["So6UIViewC", "mTouchesCancelled"]
+- ["So6UIViewC", "mTouchesEnded"]
+- ["So6UIViewC", "mTouchesMoved"]
+- ["So6UIViewC", "removeGestureRecognizers"]
+- ["So6UIViewC", "touchesBegan"]
+- ["So6UIViewC", "touchesCancelled"]
+- ["So6UIViewC", "touchesEnded"]
+- ["So6UIViewC", "touchesMoved"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "gestureRecognizers"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "mTouchesBegan"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "mTouchesCancelled"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "mTouchesEnded"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "mTouchesMoved"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "touchesBegan"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "touchesCancelled"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "touchesEnded"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "touchesMoved"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "gestureRecognizers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mTouchesBegan"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mTouchesCancelled"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mTouchesEnded"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mTouchesMoved"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "touchesBegan"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "touchesCancelled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "touchesEnded"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "touchesMoved"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "5Macaw21ContentsInterpolationP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- !private "5Macaw12InterpolableP"
+- "5Macaw5MViewC"
+- !private "SM"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- "5Macaw9TouchableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/SWXMLHash/SWXMLHash.framework/Modules/SWXMLHash.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/Target Support Files/SWXMLHash/SWXMLHash-umbrella.h"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/Target Support Files/Macaw/Macaw-umbrella.h"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/SWXMLHash/SWXMLHash.framework/Headers/SWXMLHash-Swift.h"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Pods.build/Debug-iphonesimulator/Macaw.build/unextended-module.modulemap"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Pods.build/Debug-iphonesimulator/SWXMLHash.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "70d67e0b2b63392cd5b7f2d7b814286f"

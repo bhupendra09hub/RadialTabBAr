@@ -1,0 +1,417 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MyTabBarVC"
+provides-nominal:
+- "20RedialAnimateMenuBar05MyTabD2VCC"
+provides-member:
+- ["20RedialAnimateMenuBar05MyTabD2VCC", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CALayer"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "MyTabBarVC"
+- !private "UIColor"
+- "UITabBarController"
+depends-member:
+- !private ["So12CACornerMaskV", "layerMaxXMinYCorner"]
+- !private ["So12CACornerMaskV", "layerMinXMinYCorner"]
+- !private ["So7CALayerC", "cornerRadius"]
+- !private ["So7CALayerC", "maskedCorners"]
+- !private ["So7CALayerC", "masksToBounds"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "barStyle"]
+- !private ["So15CALayerDelegateP", "isTranslucent"]
+- !private ["So15CALayerDelegateP", "layer"]
+- !private ["So13CAMediaTimingP", "cornerRadius"]
+- !private ["So13CAMediaTimingP", "maskedCorners"]
+- !private ["So13CAMediaTimingP", "masksToBounds"]
+- !private ["s7CVarArgP", "UIColor"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "barStyle"]
+- !private ["s7CVarArgP", "clear"]
+- !private ["s7CVarArgP", "cornerRadius"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isTranslucent"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "maskedCorners"]
+- !private ["s7CVarArgP", "masksToBounds"]
+- !private ["s7CVarArgP", "tabBar"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "barStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "clear"]
+- !private ["s28CustomDebugStringConvertibleP", "cornerRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isTranslucent"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "maskedCorners"]
+- !private ["s28CustomDebugStringConvertibleP", "masksToBounds"]
+- !private ["s28CustomDebugStringConvertibleP", "tabBar"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "barStyle"]
+- !private ["s23CustomStringConvertibleP", "clear"]
+- !private ["s23CustomStringConvertibleP", "cornerRadius"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isTranslucent"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "maskedCorners"]
+- !private ["s23CustomStringConvertibleP", "masksToBounds"]
+- !private ["s23CustomStringConvertibleP", "tabBar"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["SQ", "UIColor"]
+- ["SQ", ""]
+- !private ["SQ", "backgroundColor"]
+- !private ["SQ", "barStyle"]
+- !private ["SQ", "blackOpaque"]
+- !private ["SQ", "clear"]
+- !private ["SQ", "cornerRadius"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isTranslucent"]
+- !private ["SQ", "layer"]
+- !private ["SQ", "layerMaxXMinYCorner"]
+- !private ["SQ", "layerMinXMinYCorner"]
+- !private ["SQ", "maskedCorners"]
+- !private ["SQ", "masksToBounds"]
+- !private ["SQ", "tabBar"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", "layerMaxXMinYCorner"]
+- !private ["s25ExpressibleByArrayLiteralP", "layerMinXMinYCorner"]
+- !private ["SH", "UIColor"]
+- ["SH", ""]
+- !private ["SH", "backgroundColor"]
+- !private ["SH", "barStyle"]
+- !private ["SH", "blackOpaque"]
+- !private ["SH", "clear"]
+- !private ["SH", "cornerRadius"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isTranslucent"]
+- !private ["SH", "layer"]
+- !private ["SH", "maskedCorners"]
+- !private ["SH", "masksToBounds"]
+- !private ["SH", "tabBar"]
+- !private ["SH", "viewDidLoad"]
+- ["20RedialAnimateMenuBar05MyTabD2VCC", "CALayer"]
+- !private ["20RedialAnimateMenuBar05MyTabD2VCC", "UIColor"]
+- !private ["20RedialAnimateMenuBar05MyTabD2VCC", "deinit"]
+- ["20RedialAnimateMenuBar05MyTabD2VCC", "init"]
+- ["20RedialAnimateMenuBar05MyTabD2VCC", "shapeLayer"]
+- !private ["20RedialAnimateMenuBar05MyTabD2VCC", "tabBar"]
+- ["20RedialAnimateMenuBar05MyTabD2VCC", "viewDidLoad"]
+- !private ["So8NSCodingP", "UIColor"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "barStyle"]
+- !private ["So8NSCodingP", "clear"]
+- !private ["So8NSCodingP", "cornerRadius"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isTranslucent"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "maskedCorners"]
+- !private ["So8NSCodingP", "masksToBounds"]
+- !private ["So8NSCodingP", "tabBar"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "clear"]
+- !private ["So26NSExtensionRequestHandlingP", "UIColor"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "tabBar"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "clear"]
+- !private ["So21NSItemProviderWritingP", "clear"]
+- ["So8NSObjectC", "CALayer"]
+- !private ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "barStyle"]
+- !private ["So8NSObjectC", "clear"]
+- !private ["So8NSObjectC", "cornerRadius"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isTranslucent"]
+- !private ["So8NSObjectC", "layer"]
+- !private ["So8NSObjectC", "maskedCorners"]
+- !private ["So8NSObjectC", "masksToBounds"]
+- ["So8NSObjectC", "shapeLayer"]
+- !private ["So8NSObjectC", "tabBar"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "UIColor"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "backgroundColor"]
+- !private ["So8NSObjectP", "barStyle"]
+- !private ["So8NSObjectP", "clear"]
+- !private ["So8NSObjectP", "cornerRadius"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isTranslucent"]
+- !private ["So8NSObjectP", "layer"]
+- !private ["So8NSObjectP", "maskedCorners"]
+- !private ["So8NSObjectP", "masksToBounds"]
+- !private ["So8NSObjectP", "tabBar"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "clear"]
+- !private ["So14NSSecureCodingP", "cornerRadius"]
+- !private ["So14NSSecureCodingP", "maskedCorners"]
+- !private ["So14NSSecureCodingP", "masksToBounds"]
+- !private ["s9OptionSetP", "layerMaxXMinYCorner"]
+- !private ["s9OptionSetP", "layerMinXMinYCorner"]
+- !private ["SY", "blackOpaque"]
+- !private ["SY", "layerMaxXMinYCorner"]
+- !private ["SY", "layerMinXMinYCorner"]
+- !private ["s10SetAlgebraP", "layerMaxXMinYCorner"]
+- !private ["s10SetAlgebraP", "layerMinXMinYCorner"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "barStyle"]
+- !private ["So29UIAccessibilityIdentificationP", "isTranslucent"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "barStyle"]
+- !private ["So12UIAppearanceP", "isTranslucent"]
+- !private ["So12UIAppearanceP", "layer"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "barStyle"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isTranslucent"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- !private ["So21UIAppearanceContainerP", "tabBar"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So10UIBarStyleV", "blackOpaque"]
+- !private ["So7UIColorC", "clear"]
+- !private ["So18UIContentContainerP", "UIColor"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "tabBar"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "barStyle"]
+- !private ["So17UICoordinateSpaceP", "isTranslucent"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "barStyle"]
+- !private ["So13UIDynamicItemP", "isTranslucent"]
+- !private ["So13UIDynamicItemP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "barStyle"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isTranslucent"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "tabBar"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "barStyle"]
+- !private ["So11UIFocusItemP", "isTranslucent"]
+- !private ["So11UIFocusItemP", "layer"]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
+- !private ["So20UIFocusItemContainerP", "barStyle"]
+- !private ["So20UIFocusItemContainerP", "isTranslucent"]
+- !private ["So20UIFocusItemContainerP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "barStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isTranslucent"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "tabBar"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "CALayer"]
+- !private ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- !private ["So11UIResponderC", "barStyle"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isTranslucent"]
+- !private ["So11UIResponderC", "layer"]
+- ["So11UIResponderC", "shapeLayer"]
+- !private ["So11UIResponderC", "tabBar"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "barStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isTranslucent"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "tabBar"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "backgroundColor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "barStyle"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "isTranslucent"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "layer"]
+- !private ["So16UIStateRestoringP", "UIColor"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "tabBar"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So8UITabBarC", "backgroundColor"]
+- !private ["So8UITabBarC", "barStyle"]
+- !private ["So8UITabBarC", "isTranslucent"]
+- !private ["So8UITabBarC", "layer"]
+- ["So18UITabBarControllerC", "CALayer"]
+- !private ["So18UITabBarControllerC", "UIColor"]
+- ["So18UITabBarControllerC", ""]
+- ["So18UITabBarControllerC", "init"]
+- !private ["So18UITabBarControllerC", "init"]
+- ["So18UITabBarControllerC", "shapeLayer"]
+- !private ["So18UITabBarControllerC", "tabBar"]
+- ["So18UITabBarControllerC", "viewDidLoad"]
+- !private ["So16UITabBarDelegateP", "UIColor"]
+- ["So16UITabBarDelegateP", ""]
+- !private ["So16UITabBarDelegateP", "init"]
+- !private ["So16UITabBarDelegateP", "init"]
+- !private ["So16UITabBarDelegateP", "tabBar"]
+- !private ["So16UITabBarDelegateP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "barStyle"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isTranslucent"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- !private ["So18UITraitEnvironmentP", "tabBar"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "UIColor"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
+- !private ["So23UIUserActivityRestoringP", "barStyle"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isTranslucent"]
+- !private ["So23UIUserActivityRestoringP", "layer"]
+- !private ["So23UIUserActivityRestoringP", "tabBar"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "barStyle"]
+- !private ["So6UIViewC", "isTranslucent"]
+- !private ["So6UIViewC", "layer"]
+- ["So16UIViewControllerC", "CALayer"]
+- !private ["So16UIViewControllerC", "UIColor"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "shapeLayer"]
+- !private ["So16UIViewControllerC", "tabBar"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "barStyle"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isTranslucent"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["s26_ExpressibleByColorLiteralP", "clear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "barStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isTranslucent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maskedCorners"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "masksToBounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tabBar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+depends-nominal:
+- !private "So12CACornerMaskV"
+- !private "So7CALayerC"
+- !private "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- "20RedialAnimateMenuBar05MyTabD2VCC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "s9OptionSetP"
+- !private "SY"
+- !private "s10SetAlgebraP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So10UIBarStyleV"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So8UITabBarC"
+- "So18UITabBarControllerC"
+- "So16UITabBarDelegateP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6161c0f11e065d2e3b7ce7652a4f6707"

@@ -1,24 +1,228 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EcM-dD-4mn">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--My Tab BarVC-->
+        <scene sceneID="2C8-1A-tyi">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <tabBarController storyboardIdentifier="TabBarVC" automaticallyAdjustsScrollViewInsets="NO" id="EcM-dD-4mn" customClass="MyTabBarVC" customModule="RedialAnimateMenuBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FzX-vu-wav" customClass="CustomizedTabBar" customModule="RedialAnimateMenuBar" customModuleProvider="target">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Vu3-hn-IwJ" kind="relationship" relationship="viewControllers" id="7cK-LB-x2S"/>
+                        <segue destination="nox-uj-sMv" kind="relationship" relationship="viewControllers" id="4EM-Sr-Ceu"/>
+                        <segue destination="Q6Y-n4-jvw" kind="relationship" relationship="viewControllers" id="tHA-Ig-7L4"/>
+                        <segue destination="AQL-cf-3YT" kind="relationship" relationship="viewControllers" id="BsG-xV-7zG"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gld-w4-nWT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-586.39999999999998" y="488.90554722638683"/>
+        </scene>
+        <!--About US-->
+        <scene sceneID="Jw5-pz-2tD">
+            <objects>
+                <viewController storyboardIdentifier="SecondVC" id="Vu3-hn-IwJ" customClass="SecondVC" customModule="RedialAnimateMenuBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pKB-VH-YmZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mqt-6W-6SF">
+                                <rect key="frame" x="157.5" y="588" width="60" height="60"/>
+                                <color key="backgroundColor" red="0.2884461993898062" green="0.69043787791154498" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="bIm-8W-P7S"/>
+                                    <constraint firstAttribute="height" constant="60" id="w0x-8o-US2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="35"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="menuAction:" destination="Vu3-hn-IwJ" eventType="touchUpInside" id="OmC-CQ-GzR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Mqt-6W-6SF" firstAttribute="centerX" secondItem="ysw-JQ-gRh" secondAttribute="centerX" id="jcI-OE-sRa"/>
+                            <constraint firstItem="ysw-JQ-gRh" firstAttribute="bottom" secondItem="Mqt-6W-6SF" secondAttribute="centerY" id="uEZ-u6-tTm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ysw-JQ-gRh"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="About US" image="menu" selectedImage="menu" id="BnG-EX-kSF"/>
+                    <connections>
+                        <outlet property="btnMenu" destination="Mqt-6W-6SF" id="JGv-vw-MdD"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ea7-4m-rNP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="190" y="489"/>
+        </scene>
+        <!--Apps-->
+        <scene sceneID="JdZ-lf-WLb">
+            <objects>
+                <viewController storyboardIdentifier="ThirdVC" id="nox-uj-sMv" customClass="ThirdVC" customModule="RedialAnimateMenuBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yEH-55-rp7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cyn-WS-roN">
+                                <rect key="frame" x="157.5" y="588" width="60" height="60"/>
+                                <color key="backgroundColor" red="0.28844619939999999" green="0.6904378779" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Zig-R2-qMF"/>
+                                    <constraint firstAttribute="width" constant="60" id="rwH-xw-nCA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="35"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="menuAction:" destination="nox-uj-sMv" eventType="touchUpInside" id="b9E-1t-44w"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Cyn-WS-roN" firstAttribute="centerX" secondItem="x75-WZ-8uo" secondAttribute="centerX" id="BLV-Ca-NVj"/>
+                            <constraint firstItem="x75-WZ-8uo" firstAttribute="bottom" secondItem="Cyn-WS-roN" secondAttribute="centerY" id="WJ4-FF-cl0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="x75-WZ-8uo"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Apps" image="search" selectedImage="search" id="1Ku-5a-JeA">
+                        <inset key="largeContentSizeImageInsets" minX="0.0" minY="0.0" maxX="1" maxY="0.0"/>
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="-25" vertical="0.0"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="btnMenu" destination="Cyn-WS-roN" id="ex2-pO-XBJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hbx-R3-IBU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="878" y="489"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="7HO-dv-NFd">
+            <objects>
+                <viewController storyboardIdentifier="FourthVC" id="Q6Y-n4-jvw" customClass="FourthVC" customModule="RedialAnimateMenuBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Jt-27-VGM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NgU-Ay-HSX">
+                                <rect key="frame" x="157.5" y="588" width="60" height="60"/>
+                                <color key="backgroundColor" red="0.28844619939999999" green="0.6904378779" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="2HS-8g-PTK"/>
+                                    <constraint firstAttribute="height" constant="60" id="h2z-hL-gUv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="35"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="menuAction:" destination="Q6Y-n4-jvw" eventType="touchUpInside" id="DJB-sO-KIG"/>
+                                    <action selector="menuAction:" destination="Vu3-hn-IwJ" eventType="touchUpInside" id="o9m-ia-fvj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NgU-Ay-HSX" firstAttribute="centerX" secondItem="6q1-Mh-Mms" secondAttribute="centerX" id="7tT-Rv-IFa"/>
+                            <constraint firstItem="6q1-Mh-Mms" firstAttribute="bottom" secondItem="NgU-Ay-HSX" secondAttribute="centerY" id="UAh-2i-Scs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6q1-Mh-Mms"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Search" image="notification" selectedImage="notification" id="04e-Gh-3Eb">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="25" vertical="0.0"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="btnMenu" destination="NgU-Ay-HSX" id="ISh-YC-Fwt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r2I-hA-X2R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="164" y="1220"/>
+        </scene>
+        <!--Files-->
+        <scene sceneID="zOO-9E-lhP">
+            <objects>
+                <viewController storyboardIdentifier="FifthVC" id="AQL-cf-3YT" customClass="FifthVC" customModule="RedialAnimateMenuBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i3e-uG-pen">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="37u-uT-4Wl">
+                                <rect key="frame" x="157.5" y="588" width="60" height="60"/>
+                                <color key="backgroundColor" red="0.28844619939999999" green="0.6904378779" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="AYa-c8-41j"/>
+                                    <constraint firstAttribute="width" constant="60" id="Dwk-GB-Ye4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="35"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="menAction:" destination="AQL-cf-3YT" eventType="touchUpInside" id="ldw-Ps-2Za"/>
+                                    <action selector="menuAction:" destination="Vu3-hn-IwJ" eventType="touchUpInside" id="5af-0g-VFR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="37u-uT-4Wl" firstAttribute="centerX" secondItem="3JD-3u-oXI" secondAttribute="centerX" id="WzD-7X-LQg"/>
+                            <constraint firstItem="3JD-3u-oXI" firstAttribute="bottom" secondItem="37u-uT-4Wl" secondAttribute="centerY" id="Wzs-lP-k5d"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3JD-3u-oXI"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Files" image="user" selectedImage="user" id="9iK-YN-q2u"/>
+                    <connections>
+                        <outlet property="btnMenu" destination="37u-uT-4Wl" id="9nb-JZ-1By"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wt9-J9-eja" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="877.60000000000002" y="1219.3403298350825"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="menu" width="58" height="58"/>
+        <image name="notification" width="58" height="58"/>
+        <image name="search" width="58" height="58"/>
+        <image name="user" width="58" height="58"/>
+    </resources>
 </document>

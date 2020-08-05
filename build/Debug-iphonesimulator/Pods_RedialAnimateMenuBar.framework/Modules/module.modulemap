@@ -1,0 +1,6 @@
+framework module Pods_RedialAnimateMenuBar {
+  umbrella header "Pods-RedialAnimateMenuBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

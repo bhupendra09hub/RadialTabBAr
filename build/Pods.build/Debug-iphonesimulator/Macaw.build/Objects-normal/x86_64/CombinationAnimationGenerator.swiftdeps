@@ -1,0 +1,549 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["5Macaw17AnimationProducerC", ""]
+- ["5Macaw17AnimationProducerC", "createChildAnimations"]
+- ["5Macaw17AnimationProducerC", "addCombineAnimation"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "..<"
+- !private "<"
+- !private "==="
+- !private ">"
+- "Animation"
+- "AnimationContext"
+- "AnimationProducer"
+- "AssignmentPrecedence"
+- !private "BasicAnimation"
+- !private "BooleanLiteralType"
+- !private "CATransaction"
+- "CastingPrecedence"
+- !private "CombineAnimation"
+- !private "EmptyAnimation"
+- !private "FloatLiteralType"
+- !private "Group"
+- !private "Int"
+- !private "IntegerLiteralType"
+- !private "SceneUtils"
+- !private "Shape"
+- !private "ShapeAnimation"
+- !private "min"
+- !private "||"
+depends-member:
+- !private ["5Macaw18AnimatableVariableC", "animation"]
+- !private ["5Macaw9AnimationC", "animations"]
+- !private ["5Macaw9AnimationC", "autoreverses"]
+- !private ["5Macaw9AnimationC", "completion"]
+- !private ["5Macaw9AnimationC", "delay"]
+- !private ["5Macaw9AnimationC", "duration"]
+- !private ["5Macaw9AnimationC", "getDuration"]
+- !private ["5Macaw9AnimationC", "next"]
+- !private ["5Macaw9AnimationC", "node"]
+- !private ["5Macaw9AnimationC", "nodeRenderer"]
+- !private ["5Macaw9AnimationC", "removeFunc"]
+- !private ["5Macaw9AnimationC", "repeatCount"]
+- !private ["5Macaw9AnimationC", "toNodes"]
+- ["5Macaw17AnimationProducerC", "Animation"]
+- ["5Macaw17AnimationProducerC", "AnimationContext"]
+- !private ["5Macaw17AnimationProducerC", "BasicAnimation"]
+- !private ["5Macaw17AnimationProducerC", "CATransaction"]
+- !private ["5Macaw17AnimationProducerC", "CombineAnimation"]
+- !private ["5Macaw17AnimationProducerC", "EmptyAnimation"]
+- !private ["5Macaw17AnimationProducerC", "Group"]
+- !private ["5Macaw17AnimationProducerC", "Int"]
+- !private ["5Macaw17AnimationProducerC", "SceneUtils"]
+- !private ["5Macaw17AnimationProducerC", "Shape"]
+- !private ["5Macaw17AnimationProducerC", "ShapeAnimation"]
+- !private ["5Macaw17AnimationProducerC", "addAnimationSequence"]
+- ["5Macaw17AnimationProducerC", "addCombineAnimation"]
+- ["5Macaw17AnimationProducerC", "createChildAnimations"]
+- !private ["5Macaw17AnimationProducerC", "min"]
+- !private ["5Macaw17AnimationProducerC", "play"]
+- !private ["Sa", "append"]
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "group"]
+- !private ["Sa", "init"]
+- !private ["Sa", "removeAll"]
+- !private ["Sa", "sequence"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "compactMap"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "filter"]
+- !private ["s13ArrayProtocolP", "forEach"]
+- !private ["s13ArrayProtocolP", "group"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "removeAll"]
+- !private ["s13ArrayProtocolP", "sequence"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["5Macaw14BasicAnimationC", "animations"]
+- !private ["5Macaw14BasicAnimationC", "autoreverses"]
+- !private ["5Macaw14BasicAnimationC", "completion"]
+- !private ["5Macaw14BasicAnimationC", "delay"]
+- !private ["5Macaw14BasicAnimationC", "duration"]
+- !private ["5Macaw14BasicAnimationC", "getDuration"]
+- !private ["5Macaw14BasicAnimationC", "next"]
+- !private ["5Macaw14BasicAnimationC", "node"]
+- !private ["5Macaw14BasicAnimationC", "nodeRenderer"]
+- !private ["5Macaw14BasicAnimationC", "removeFunc"]
+- !private ["5Macaw14BasicAnimationC", "repeatCount"]
+- !private ["5Macaw14BasicAnimationC", "toNodes"]
+- !private ["SK", "append"]
+- !private ["SK", "compactMap"]
+- !private ["SK", "count"]
+- !private ["SK", "filter"]
+- !private ["SK", "forEach"]
+- !private ["SK", "group"]
+- !private ["SK", "init"]
+- !private ["SK", "removeAll"]
+- !private ["SK", "sequence"]
+- !private ["SK", "subscript"]
+- !private ["Sz", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So13CATransactionC", "commit"]
+- !private ["So13CATransactionC", "setDisableActions"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "animations"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "commit"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "contents"]
+- !private ["s7CVarArgP", "contentsVar"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "group"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "opacity"]
+- !private ["s7CVarArgP", "opacityVar"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "sequence"]
+- !private ["s7CVarArgP", "setDisableActions"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "append"]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "count"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "group"]
+- !private ["Sl", "init"]
+- !private ["Sl", "removeAll"]
+- !private ["Sl", "sequence"]
+- !private ["Sl", "subscript"]
+- !private ["5Macaw16CombineAnimationC", "animations"]
+- !private ["5Macaw16CombineAnimationC", "autoreverses"]
+- !private ["5Macaw16CombineAnimationC", "completion"]
+- !private ["5Macaw16CombineAnimationC", "delay"]
+- !private ["5Macaw16CombineAnimationC", "duration"]
+- !private ["5Macaw16CombineAnimationC", "next"]
+- !private ["5Macaw16CombineAnimationC", "node"]
+- !private ["5Macaw16CombineAnimationC", "nodeRenderer"]
+- !private ["5Macaw16CombineAnimationC", "removeFunc"]
+- !private ["5Macaw16CombineAnimationC", "repeatCount"]
+- !private ["5Macaw16CombineAnimationC", "toNodes"]
+- !private ["SL", "init"]
+- !private ["5Macaw21ContentsInterpolationP", "append"]
+- !private ["5Macaw21ContentsInterpolationP", "compactMap"]
+- !private ["5Macaw21ContentsInterpolationP", "count"]
+- !private ["5Macaw21ContentsInterpolationP", "filter"]
+- !private ["5Macaw21ContentsInterpolationP", "forEach"]
+- !private ["5Macaw21ContentsInterpolationP", "group"]
+- !private ["5Macaw21ContentsInterpolationP", "init"]
+- !private ["5Macaw21ContentsInterpolationP", "removeAll"]
+- !private ["5Macaw21ContentsInterpolationP", "sequence"]
+- !private ["5Macaw21ContentsInterpolationP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "animations"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "commit"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "contents"]
+- !private ["s28CustomDebugStringConvertibleP", "contentsVar"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "group"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "opacity"]
+- !private ["s28CustomDebugStringConvertibleP", "opacityVar"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "sequence"]
+- !private ["s28CustomDebugStringConvertibleP", "setDisableActions"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "group"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "sequence"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "animations"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "commit"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "contents"]
+- !private ["s23CustomStringConvertibleP", "contentsVar"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "group"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "opacity"]
+- !private ["s23CustomStringConvertibleP", "opacityVar"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "sequence"]
+- !private ["s23CustomStringConvertibleP", "setDisableActions"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "compactMap"]
+- !private ["Se", "count"]
+- !private ["Se", "filter"]
+- !private ["Se", "forEach"]
+- !private ["Se", "group"]
+- !private ["Se", "init"]
+- !private ["Se", "removeAll"]
+- !private ["Se", "sequence"]
+- !private ["Se", "subscript"]
+- !private ["Sd", "deinit"]
+- !private ["5Macaw8DrawableC", "animations"]
+- !private ["5Macaw8DrawableC", "bounds"]
+- !private ["5Macaw8DrawableC", "contents"]
+- !private ["5Macaw8DrawableC", "contentsVar"]
+- !private ["5Macaw8DrawableC", "opacity"]
+- !private ["5Macaw8DrawableC", "opacityVar"]
+- !private ["5Macaw14EmptyAnimationC", "init"]
+- !private ["5Macaw14EmptyAnimationC", "next"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "compactMap"]
+- !private ["SE", "count"]
+- !private ["SE", "filter"]
+- !private ["SE", "forEach"]
+- !private ["SE", "group"]
+- !private ["SE", "init"]
+- !private ["SE", "removeAll"]
+- !private ["SE", "sequence"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "animations"]
+- !private ["SQ", "append"]
+- !private ["SQ", "autoreverses"]
+- !private ["SQ", "bounds"]
+- !private ["SQ", "commit"]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "completion"]
+- !private ["SQ", "contents"]
+- !private ["SQ", "contentsVar"]
+- !private ["SQ", "count"]
+- !private ["SQ", "delay"]
+- !private ["SQ", "duration"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "getDuration"]
+- !private ["SQ", "group"]
+- !private ["SQ", "init"]
+- !private ["SQ", "next"]
+- !private ["SQ", "node"]
+- !private ["SQ", "nodeRenderer"]
+- !private ["SQ", "opacity"]
+- !private ["SQ", "opacityVar"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "removeFunc"]
+- !private ["SQ", "repeatCount"]
+- !private ["SQ", "sequence"]
+- !private ["SQ", "setDisableActions"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "toNodes"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "group"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s25ExpressibleByArrayLiteralP", "sequence"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["5Macaw5GroupC", "bounds"]
+- !private ["5Macaw5GroupC", "contents"]
+- !private ["5Macaw5GroupC", "contentsVar"]
+- !private ["5Macaw5GroupC", "opacity"]
+- !private ["5Macaw5GroupC", "opacityVar"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "animations"]
+- !private ["SH", "append"]
+- !private ["SH", "autoreverses"]
+- !private ["SH", "bounds"]
+- !private ["SH", "commit"]
+- !private ["SH", "compactMap"]
+- !private ["SH", "completion"]
+- !private ["SH", "contents"]
+- !private ["SH", "contentsVar"]
+- !private ["SH", "count"]
+- !private ["SH", "delay"]
+- !private ["SH", "duration"]
+- !private ["SH", "filter"]
+- !private ["SH", "forEach"]
+- !private ["SH", "getDuration"]
+- !private ["SH", "group"]
+- !private ["SH", "init"]
+- !private ["SH", "next"]
+- !private ["SH", "node"]
+- !private ["SH", "nodeRenderer"]
+- !private ["SH", "opacity"]
+- !private ["SH", "opacityVar"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "removeFunc"]
+- !private ["SH", "repeatCount"]
+- !private ["SH", "sequence"]
+- !private ["SH", "setDisableActions"]
+- !private ["SH", "subscript"]
+- !private ["SH", "toNodes"]
+- !private ["Si", "init"]
+- !private ["5Macaw12InterpolableP", "append"]
+- !private ["5Macaw12InterpolableP", "compactMap"]
+- !private ["5Macaw12InterpolableP", "count"]
+- !private ["5Macaw12InterpolableP", "filter"]
+- !private ["5Macaw12InterpolableP", "forEach"]
+- !private ["5Macaw12InterpolableP", "group"]
+- !private ["5Macaw12InterpolableP", "init"]
+- !private ["5Macaw12InterpolableP", "opacity"]
+- !private ["5Macaw12InterpolableP", "opacityVar"]
+- !private ["5Macaw12InterpolableP", "removeAll"]
+- !private ["5Macaw12InterpolableP", "sequence"]
+- !private ["5Macaw12InterpolableP", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "compactMap"]
+- !private ["SM", "count"]
+- !private ["SM", "filter"]
+- !private ["SM", "forEach"]
+- !private ["SM", "group"]
+- !private ["SM", "init"]
+- !private ["SM", "removeAll"]
+- !private ["SM", "sequence"]
+- !private ["SM", "subscript"]
+- !private ["So8NSObjectC", "animations"]
+- !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "commit"]
+- !private ["So8NSObjectC", "contents"]
+- !private ["So8NSObjectC", "contentsVar"]
+- !private ["So8NSObjectC", "opacity"]
+- !private ["So8NSObjectC", "opacityVar"]
+- !private ["So8NSObjectC", "setDisableActions"]
+- !private ["So8NSObjectP", "animations"]
+- !private ["So8NSObjectP", "bounds"]
+- !private ["So8NSObjectP", "commit"]
+- !private ["So8NSObjectP", "contents"]
+- !private ["So8NSObjectP", "contentsVar"]
+- !private ["So8NSObjectP", "opacity"]
+- !private ["So8NSObjectP", "opacityVar"]
+- !private ["So8NSObjectP", "setDisableActions"]
+- !private ["5Macaw4NodeC", "animations"]
+- !private ["5Macaw4NodeC", "bounds"]
+- !private ["5Macaw4NodeC", "contents"]
+- !private ["5Macaw4NodeC", "contentsVar"]
+- !private ["5Macaw4NodeC", "opacity"]
+- !private ["5Macaw4NodeC", "opacityVar"]
+- !private ["Sj", "init"]
+- !private ["Sk", "append"]
+- !private ["Sk", "compactMap"]
+- !private ["Sk", "count"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "forEach"]
+- !private ["Sk", "group"]
+- !private ["Sk", "init"]
+- !private ["Sk", "removeAll"]
+- !private ["Sk", "sequence"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "compactMap"]
+- !private ["Sm", "count"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "forEach"]
+- !private ["Sm", "group"]
+- !private ["Sm", "init"]
+- !private ["Sm", "removeAll"]
+- !private ["Sm", "sequence"]
+- !private ["Sm", "subscript"]
+- !private ["5Macaw10SceneUtilsC", "copyNode"]
+- !private ["ST", "append"]
+- !private ["ST", "compactMap"]
+- !private ["ST", "count"]
+- !private ["ST", "filter"]
+- !private ["ST", "forEach"]
+- !private ["ST", "group"]
+- !private ["ST", "init"]
+- !private ["ST", "removeAll"]
+- !private ["ST", "sequence"]
+- !private ["ST", "subscript"]
+- !private ["5Macaw5ShapeC", "opacity"]
+- !private ["5Macaw5ShapeC", "opacityVar"]
+- !private ["5Macaw14ShapeAnimationC", "init"]
+- !private ["5Macaw18ShapeInterpolationP", "opacity"]
+- !private ["5Macaw18ShapeInterpolationP", "opacityVar"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["5Macaw8VariableC", "animation"]
+- !private ["9SWXMLHash26XMLAttributeDeserializableP", "_getBuiltinLogicValue"]
+- !private ["9SWXMLHash26XMLAttributeDeserializableP", "init"]
+- !private ["9SWXMLHash24XMLElementDeserializableP", "_getBuiltinLogicValue"]
+- !private ["9SWXMLHash24XMLElementDeserializableP", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "group"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s24_DestructorSafeContainerP", "sequence"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "group"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "sequence"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "commit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contents"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentsVar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "opacity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "opacityVar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setDisableActions"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "group"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "sequence"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "5Macaw18AnimatableVariableC"
+- !private "5Macaw9AnimationC"
+- "5Macaw17AnimationProducerC"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "5Macaw14BasicAnimationC"
+- !private "SK"
+- !private "Sz"
+- !private "Sb"
+- !private "So13CATransactionC"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "5Macaw16CombineAnimationC"
+- !private "SL"
+- !private "5Macaw21ContentsInterpolationP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "Sd"
+- !private "5Macaw8DrawableC"
+- !private "5Macaw14EmptyAnimationC"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "5Macaw5GroupC"
+- !private "SH"
+- !private "Si"
+- !private "5Macaw12InterpolableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "5Macaw4NodeC"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- !private "5Macaw10SceneUtilsC"
+- !private "ST"
+- !private "5Macaw5ShapeC"
+- !private "5Macaw14ShapeAnimationC"
+- !private "5Macaw18ShapeInterpolationP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "5Macaw8VariableC"
+- !private "9SWXMLHash26XMLAttributeDeserializableP"
+- !private "9SWXMLHash24XMLElementDeserializableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/SWXMLHash/SWXMLHash.framework/Modules/SWXMLHash.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/Target Support Files/SWXMLHash/SWXMLHash-umbrella.h"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/Target Support Files/Macaw/Macaw-umbrella.h"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/SWXMLHash/SWXMLHash.framework/Headers/SWXMLHash-Swift.h"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Pods.build/Debug-iphonesimulator/Macaw.build/unextended-module.modulemap"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Pods.build/Debug-iphonesimulator/SWXMLHash.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7204afafc0f9dc011a786f46b2729cf2"

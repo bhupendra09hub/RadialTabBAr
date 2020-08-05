@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "372900b0eed180da55b6923e60607c61"
+build_time: [1596533984, 323573000]
+inputs:
+  "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/SWXMLHash/Source/shim.swift": [1596533816, 0]
+  "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/SWXMLHash/Source/SWXMLHash.swift": [1596533816, 0]
+  "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/SWXMLHash/Source/XMLIndexer+XMLIndexerDeserializable.swift": [1596533816, 0]

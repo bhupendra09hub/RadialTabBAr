@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "ae5195664da475e98db0801cdd092ba5"
+build_time: [1596549846, 891971000]
+inputs:
+  "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/RedialAnimateMenuBar/Extension.swift": [1596543449, 0]
+  "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/RedialAnimateMenuBar/FourthVC.swift": [1596549846, 0]
+  "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/RedialAnimateMenuBar/FifthVC.swift": [1596549846, 0]
+  "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/RedialAnimateMenuBar/AppDelegate.swift": [1596533404, 0]
+  "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/RedialAnimateMenuBar/SecondVC.swift": [1596549846, 0]
+  "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/RedialAnimateMenuBar/CustomizedTabBar.swift": [1596549742, 0]
+  "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/RedialAnimateMenuBar/MyTabBarVC.swift": [1596549716, 0]
+  "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/RedialAnimateMenuBar/ThirdVC.swift": [1596549846, 0]

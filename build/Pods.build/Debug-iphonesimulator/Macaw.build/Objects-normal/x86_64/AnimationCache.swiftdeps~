@@ -1,0 +1,793 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AnimationUtils"
+provides-nominal:
+- "5Macaw14AnimationUtilsC"
+provides-member:
+- ["5Macaw14AnimationUtilsC", ""]
+- ["5Macaw4NodeC", ""]
+- ["5Macaw12NodeRendererC", ""]
+- ["5Macaw4NodeC", "isAnimating"]
+- ["5Macaw4NodeC", "needsLayer"]
+- ["5Macaw12NodeRendererC", "isAnimating"]
+- ["5Macaw12NodeRendererC", "freeLayer"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "*"
+- !private "+="
+- !private "/"
+- !private "<"
+- !private "<="
+- !private "=="
+- !private "==="
+- !private "??"
+- !private "AbsoluteUtils"
+- "Animation"
+- !private "AnimationState"
+- "AnimationUtils"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CALayer"
+- !private "CAShapeLayer"
+- !private "CATransaction"
+- !private "CATransform3DMakeAffineTransform"
+- "CGFloat"
+- !private "CGPoint"
+- !private "CachedLayer"
+- "CastingPrecedence"
+- !private "Float"
+- !private "FloatLiteralType"
+- !private "MMainScreen"
+- "Node"
+- "NodeRenderer"
+- "Rect"
+- "ShapeLayer"
+- "Transform"
+- !private "TransformAnimation"
+- !private "kCATransactionDisableActions"
+- !private "kCFBooleanTrue"
+- !private "sqrt"
+- !private "||"
+depends-member:
+- !private ["5Macaw13AbsoluteUtilsC", "absoluteClip"]
+- !private ["5Macaw9AnimationC", "getVFunc"]
+- !private ["5Macaw9AnimationC", "state"]
+- !private ["5Macaw13AnimationImplC", "getVFunc"]
+- !private ["5Macaw17AnimationObserverP", "AnimationUtils"]
+- !private ["5Macaw17AnimationObserverP", "CATransaction"]
+- !private ["5Macaw17AnimationObserverP", "CATransform3DMakeAffineTransform"]
+- !private ["5Macaw17AnimationObserverP", "getAllChildrenRecursive"]
+- !private ["5Macaw17AnimationObserverP", "kCATransactionDisableActions"]
+- !private ["5Macaw17AnimationObserverP", "kCFBooleanTrue"]
+- !private ["5Macaw17AnimationObserverP", "layer"]
+- !private ["5Macaw17AnimationObserverP", "node"]
+- !private ["5Macaw17AnimationObserverP", "parentRenderer"]
+- !private ["5Macaw17AnimationObserverP", "sceneLayer"]
+- !private ["5Macaw17AnimationObserverP", "view"]
+- !private ["5Macaw17AnimationObserverP", "zPosition"]
+- !private ["5Macaw14AnimationStateO", "deinit"]
+- !private ["5Macaw14AnimationStateO", "initial"]
+- !private ["5Macaw14AnimationStateO", "running"]
+- !private ["5Macaw14AnimationUtilsC", "AbsoluteUtils"]
+- ["5Macaw14AnimationUtilsC", "Animation"]
+- ["5Macaw14AnimationUtilsC", "Bool"]
+- !private ["5Macaw14AnimationUtilsC", "CALayer"]
+- !private ["5Macaw14AnimationUtilsC", "CAShapeLayer"]
+- !private ["5Macaw14AnimationUtilsC", "CATransform3DMakeAffineTransform"]
+- ["5Macaw14AnimationUtilsC", "CGFloat"]
+- !private ["5Macaw14AnimationUtilsC", "CGPoint"]
+- !private ["5Macaw14AnimationUtilsC", "CachedLayer"]
+- !private ["5Macaw14AnimationUtilsC", "Float"]
+- !private ["5Macaw14AnimationUtilsC", "MMainScreen"]
+- ["5Macaw14AnimationUtilsC", "NodeRenderer"]
+- ["5Macaw14AnimationUtilsC", "Rect"]
+- ["5Macaw14AnimationUtilsC", "ShapeLayer"]
+- ["5Macaw14AnimationUtilsC", "Transform"]
+- !private ["5Macaw14AnimationUtilsC", "TransformAnimation"]
+- !private ["5Macaw14AnimationUtilsC", "calculateAnimationScale"]
+- ["5Macaw14AnimationUtilsC", "init"]
+- ["5Macaw14AnimationUtilsC", "layerForNodeRenderer"]
+- !private ["5Macaw14AnimationUtilsC", "sqrt"]
+- ["5Macaw14AnimationUtilsC", "uncachedParentsPlace"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "isEmpty"]
+- !private ["s13ArrayProtocolP", "filter"]
+- !private ["s13ArrayProtocolP", "forEach"]
+- !private ["s13ArrayProtocolP", "isEmpty"]
+- !private ["5Macaw14BasicAnimationC", "getVFunc"]
+- !private ["5Macaw14BasicAnimationC", "state"]
+- !private ["SK", "filter"]
+- !private ["SK", "forEach"]
+- !private ["SK", "isEmpty"]
+- !private ["SB", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So7CALayerC", "addSublayer"]
+- !private ["So7CALayerC", "anchorPoint"]
+- !private ["So7CALayerC", "bounds"]
+- !private ["So7CALayerC", "contentsScale"]
+- !private ["So7CALayerC", "init"]
+- !private ["So7CALayerC", "mask"]
+- !private ["So7CALayerC", "masksToBounds"]
+- !private ["So7CALayerC", "opacity"]
+- !private ["So7CALayerC", "path"]
+- !private ["So7CALayerC", "removeFromSuperlayer"]
+- !private ["So7CALayerC", "renderer"]
+- !private ["So7CALayerC", "setNeedsDisplay"]
+- !private ["So7CALayerC", "shouldRenderContent"]
+- !private ["So7CALayerC", "sublayers"]
+- !private ["So7CALayerC", "transform"]
+- !private ["So7CALayerC", "zPosition"]
+- !private ["So15CALayerDelegateP", "place"]
+- !private ["So13CAMediaTimingP", "addSublayer"]
+- !private ["So13CAMediaTimingP", "anchorPoint"]
+- !private ["So13CAMediaTimingP", "bounds"]
+- !private ["So13CAMediaTimingP", "contentsScale"]
+- !private ["So13CAMediaTimingP", "init"]
+- !private ["So13CAMediaTimingP", "mask"]
+- !private ["So13CAMediaTimingP", "masksToBounds"]
+- !private ["So13CAMediaTimingP", "opacity"]
+- !private ["So13CAMediaTimingP", "path"]
+- !private ["So13CAMediaTimingP", "removeFromSuperlayer"]
+- !private ["So13CAMediaTimingP", "renderer"]
+- !private ["So13CAMediaTimingP", "setNeedsDisplay"]
+- !private ["So13CAMediaTimingP", "shouldRenderContent"]
+- !private ["So13CAMediaTimingP", "sublayers"]
+- !private ["So13CAMediaTimingP", "transform"]
+- !private ["So13CAMediaTimingP", "zPosition"]
+- !private ["So12CAShapeLayerC", "addSublayer"]
+- !private ["So12CAShapeLayerC", "anchorPoint"]
+- !private ["So12CAShapeLayerC", "bounds"]
+- !private ["So12CAShapeLayerC", "contentsScale"]
+- !private ["So12CAShapeLayerC", "init"]
+- !private ["So12CAShapeLayerC", "mask"]
+- !private ["So12CAShapeLayerC", "masksToBounds"]
+- !private ["So12CAShapeLayerC", "opacity"]
+- !private ["So12CAShapeLayerC", "path"]
+- !private ["So12CAShapeLayerC", "removeFromSuperlayer"]
+- !private ["So12CAShapeLayerC", "renderer"]
+- !private ["So12CAShapeLayerC", "setNeedsDisplay"]
+- !private ["So12CAShapeLayerC", "shouldRenderContent"]
+- !private ["So12CAShapeLayerC", "sublayers"]
+- !private ["So12CAShapeLayerC", "transform"]
+- !private ["So12CAShapeLayerC", "zPosition"]
+- !private ["So13CATransactionC", "commit"]
+- !private ["So13CATransactionC", "setValue"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["So7CGPointV", "init"]
+- !private ["So7CGPointV", "x"]
+- !private ["So7CGPointV", "y"]
+- !private ["So6CGRectV", "height"]
+- !private ["So6CGRectV", "origin"]
+- !private ["So6CGRectV", "width"]
+- !private ["s7CVarArgP", "AnimationState"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addSublayer"]
+- !private ["s7CVarArgP", "anchorPoint"]
+- !private ["s7CVarArgP", "animations"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "commit"]
+- !private ["s7CVarArgP", "contentsScale"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "mScale"]
+- !private ["s7CVarArgP", "mask"]
+- !private ["s7CVarArgP", "masksToBounds"]
+- !private ["s7CVarArgP", "needsLayer"]
+- !private ["s7CVarArgP", "opacity"]
+- !private ["s7CVarArgP", "path"]
+- !private ["s7CVarArgP", "place"]
+- !private ["s7CVarArgP", "removeFromSuperlayer"]
+- !private ["s7CVarArgP", "renderer"]
+- !private ["s7CVarArgP", "setNeedsDisplay"]
+- !private ["s7CVarArgP", "setValue"]
+- !private ["s7CVarArgP", "shouldRenderContent"]
+- !private ["s7CVarArgP", "sublayers"]
+- !private ["s7CVarArgP", "transform"]
+- !private ["s7CVarArgP", "zPosition"]
+- !private ["5Macaw11CachedLayerC", "animationLayer"]
+- !private ["5Macaw11CachedLayerC", "init"]
+- !private ["5Macaw11CachedLayerC", "rootLayer"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "isEmpty"]
+- !private ["SL", "init"]
+- !private ["5Macaw21ContentsInterpolationP", "filter"]
+- !private ["5Macaw21ContentsInterpolationP", "forEach"]
+- !private ["5Macaw21ContentsInterpolationP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "AnimationState"]
+- !private ["s28CustomDebugStringConvertibleP", "addSublayer"]
+- !private ["s28CustomDebugStringConvertibleP", "anchorPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "animations"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "commit"]
+- !private ["s28CustomDebugStringConvertibleP", "contentsScale"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "mScale"]
+- !private ["s28CustomDebugStringConvertibleP", "mask"]
+- !private ["s28CustomDebugStringConvertibleP", "masksToBounds"]
+- !private ["s28CustomDebugStringConvertibleP", "needsLayer"]
+- !private ["s28CustomDebugStringConvertibleP", "none"]
+- !private ["s28CustomDebugStringConvertibleP", "opacity"]
+- !private ["s28CustomDebugStringConvertibleP", "origin"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "place"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFromSuperlayer"]
+- !private ["s28CustomDebugStringConvertibleP", "renderer"]
+- !private ["s28CustomDebugStringConvertibleP", "setNeedsDisplay"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s28CustomDebugStringConvertibleP", "shouldRenderContent"]
+- !private ["s28CustomDebugStringConvertibleP", "sublayers"]
+- !private ["s28CustomDebugStringConvertibleP", "transform"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- !private ["s28CustomDebugStringConvertibleP", "zPosition"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "origin"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "x"]
+- !private ["s29CustomPlaygroundQuickLookableP", "y"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "none"]
+- !private ["s17CustomReflectableP", "origin"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s17CustomReflectableP", "x"]
+- !private ["s17CustomReflectableP", "y"]
+- !private ["s23CustomStringConvertibleP", "AnimationState"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addSublayer"]
+- !private ["s23CustomStringConvertibleP", "anchorPoint"]
+- !private ["s23CustomStringConvertibleP", "animations"]
+- !private ["s23CustomStringConvertibleP", "applying"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "commit"]
+- !private ["s23CustomStringConvertibleP", "contentsScale"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "h"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "mScale"]
+- !private ["s23CustomStringConvertibleP", "mask"]
+- !private ["s23CustomStringConvertibleP", "masksToBounds"]
+- !private ["s23CustomStringConvertibleP", "needsLayer"]
+- !private ["s23CustomStringConvertibleP", "opacity"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "place"]
+- !private ["s23CustomStringConvertibleP", "removeFromSuperlayer"]
+- !private ["s23CustomStringConvertibleP", "renderer"]
+- !private ["s23CustomStringConvertibleP", "setNeedsDisplay"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "shouldRenderContent"]
+- !private ["s23CustomStringConvertibleP", "sublayers"]
+- !private ["s23CustomStringConvertibleP", "toCG"]
+- !private ["s23CustomStringConvertibleP", "transform"]
+- !private ["s23CustomStringConvertibleP", "w"]
+- !private ["s23CustomStringConvertibleP", "zPosition"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "filter"]
+- !private ["Se", "forEach"]
+- !private ["Se", "height"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "none"]
+- !private ["Se", "origin"]
+- !private ["Se", "width"]
+- !private ["Se", "x"]
+- !private ["Se", "y"]
+- !private ["5Macaw8DrawableC", "AnimationState"]
+- ["5Macaw8DrawableC", "Bool"]
+- !private ["5Macaw8DrawableC", "animations"]
+- !private ["5Macaw8DrawableC", "bounds"]
+- ["5Macaw8DrawableC", "isAnimating"]
+- ["5Macaw8DrawableC", "needsLayer"]
+- !private ["5Macaw8DrawableC", "opacity"]
+- !private ["5Macaw8DrawableC", "place"]
+- !private ["5Macaw11DrawingViewC", "place"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "filter"]
+- !private ["SE", "forEach"]
+- !private ["SE", "height"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "none"]
+- !private ["SE", "origin"]
+- !private ["SE", "width"]
+- !private ["SE", "x"]
+- !private ["SE", "y"]
+- !private ["SQ", "AnimationState"]
+- !private ["SQ", "AnimationUtils"]
+- !private ["SQ", "CATransaction"]
+- !private ["SQ", "CATransform3DMakeAffineTransform"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "addSublayer"]
+- !private ["SQ", "anchorPoint"]
+- !private ["SQ", "animations"]
+- !private ["SQ", "bounds"]
+- !private ["SQ", "commit"]
+- !private ["SQ", "concat"]
+- !private ["SQ", "contentsScale"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "getAllChildrenRecursive"]
+- !private ["SQ", "getVFunc"]
+- !private ["SQ", "height"]
+- !private ["SQ", "identity"]
+- !private ["SQ", "init"]
+- !private ["SQ", "initial"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "kCATransactionDisableActions"]
+- !private ["SQ", "kCFBooleanTrue"]
+- !private ["SQ", "layer"]
+- !private ["SQ", "mScale"]
+- !private ["SQ", "mask"]
+- !private ["SQ", "masksToBounds"]
+- !private ["SQ", "needsLayer"]
+- !private ["SQ", "node"]
+- !private ["SQ", "none"]
+- !private ["SQ", "opacity"]
+- !private ["SQ", "origin"]
+- !private ["SQ", "parentRenderer"]
+- !private ["SQ", "path"]
+- !private ["SQ", "place"]
+- !private ["SQ", "removeFromSuperlayer"]
+- !private ["SQ", "renderer"]
+- !private ["SQ", "running"]
+- !private ["SQ", "sceneLayer"]
+- !private ["SQ", "setNeedsDisplay"]
+- !private ["SQ", "setValue"]
+- !private ["SQ", "shouldRenderContent"]
+- !private ["SQ", "state"]
+- !private ["SQ", "sublayers"]
+- !private ["SQ", "toCG"]
+- !private ["SQ", "transform"]
+- !private ["SQ", "view"]
+- !private ["SQ", "width"]
+- !private ["SQ", "x"]
+- !private ["SQ", "y"]
+- !private ["SQ", "zPosition"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "none"]
+- !private ["Sf", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "AnimationState"]
+- !private ["SH", "AnimationUtils"]
+- !private ["SH", "CATransaction"]
+- !private ["SH", "CATransform3DMakeAffineTransform"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "addSublayer"]
+- !private ["SH", "anchorPoint"]
+- !private ["SH", "animations"]
+- !private ["SH", "bounds"]
+- !private ["SH", "commit"]
+- !private ["SH", "concat"]
+- !private ["SH", "contentsScale"]
+- !private ["SH", "filter"]
+- !private ["SH", "forEach"]
+- !private ["SH", "getAllChildrenRecursive"]
+- !private ["SH", "getVFunc"]
+- !private ["SH", "identity"]
+- !private ["SH", "init"]
+- !private ["SH", "initial"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "kCATransactionDisableActions"]
+- !private ["SH", "kCFBooleanTrue"]
+- !private ["SH", "layer"]
+- !private ["SH", "mScale"]
+- !private ["SH", "mask"]
+- !private ["SH", "masksToBounds"]
+- !private ["SH", "needsLayer"]
+- !private ["SH", "node"]
+- !private ["SH", "none"]
+- !private ["SH", "opacity"]
+- !private ["SH", "parentRenderer"]
+- !private ["SH", "path"]
+- !private ["SH", "place"]
+- !private ["SH", "removeFromSuperlayer"]
+- !private ["SH", "renderer"]
+- !private ["SH", "running"]
+- !private ["SH", "sceneLayer"]
+- !private ["SH", "setNeedsDisplay"]
+- !private ["SH", "setValue"]
+- !private ["SH", "shouldRenderContent"]
+- !private ["SH", "state"]
+- !private ["SH", "sublayers"]
+- !private ["SH", "toCG"]
+- !private ["SH", "transform"]
+- !private ["SH", "view"]
+- !private ["SH", "zPosition"]
+- !private ["5Macaw12InterpolableP", "applying"]
+- !private ["5Macaw12InterpolableP", "concat"]
+- !private ["5Macaw12InterpolableP", "filter"]
+- !private ["5Macaw12InterpolableP", "forEach"]
+- !private ["5Macaw12InterpolableP", "h"]
+- !private ["5Macaw12InterpolableP", "identity"]
+- !private ["5Macaw12InterpolableP", "init"]
+- !private ["5Macaw12InterpolableP", "isEmpty"]
+- !private ["5Macaw12InterpolableP", "toCG"]
+- !private ["5Macaw12InterpolableP", "toCGPath"]
+- !private ["5Macaw12InterpolableP", "w"]
+- !private ["5Macaw5LocusC", "applying"]
+- !private ["5Macaw5LocusC", "h"]
+- !private ["5Macaw5LocusC", "toCG"]
+- !private ["5Macaw5LocusC", "toCGPath"]
+- !private ["5Macaw5LocusC", "w"]
+- !private ["5Macaw18LocusInterpolationP", "applying"]
+- !private ["5Macaw18LocusInterpolationP", "h"]
+- !private ["5Macaw18LocusInterpolationP", "init"]
+- !private ["5Macaw18LocusInterpolationP", "toCG"]
+- !private ["5Macaw18LocusInterpolationP", "toCGPath"]
+- !private ["5Macaw18LocusInterpolationP", "w"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["5Macaw5MViewC", "place"]
+- !private ["SM", "filter"]
+- !private ["SM", "forEach"]
+- !private ["SM", "isEmpty"]
+- !private ["So8NSCodingP", "addSublayer"]
+- !private ["So8NSCodingP", "anchorPoint"]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "contentsScale"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "mask"]
+- !private ["So8NSCodingP", "masksToBounds"]
+- !private ["So8NSCodingP", "opacity"]
+- !private ["So8NSCodingP", "path"]
+- !private ["So8NSCodingP", "place"]
+- !private ["So8NSCodingP", "removeFromSuperlayer"]
+- !private ["So8NSCodingP", "renderer"]
+- !private ["So8NSCodingP", "setNeedsDisplay"]
+- !private ["So8NSCodingP", "shouldRenderContent"]
+- !private ["So8NSCodingP", "sublayers"]
+- !private ["So8NSCodingP", "transform"]
+- !private ["So8NSCodingP", "zPosition"]
+- !private ["So8NSObjectC", "AnimationState"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "addSublayer"]
+- !private ["So8NSObjectC", "anchorPoint"]
+- !private ["So8NSObjectC", "animations"]
+- !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "commit"]
+- !private ["So8NSObjectC", "contentsScale"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isAnimating"]
+- !private ["So8NSObjectC", "mScale"]
+- !private ["So8NSObjectC", "mask"]
+- !private ["So8NSObjectC", "masksToBounds"]
+- ["So8NSObjectC", "needsLayer"]
+- !private ["So8NSObjectC", "opacity"]
+- !private ["So8NSObjectC", "path"]
+- !private ["So8NSObjectC", "place"]
+- !private ["So8NSObjectC", "removeFromSuperlayer"]
+- !private ["So8NSObjectC", "renderer"]
+- !private ["So8NSObjectC", "setNeedsDisplay"]
+- !private ["So8NSObjectC", "setValue"]
+- !private ["So8NSObjectC", "shouldRenderContent"]
+- !private ["So8NSObjectC", "sublayers"]
+- !private ["So8NSObjectC", "transform"]
+- !private ["So8NSObjectC", "zPosition"]
+- !private ["So8NSObjectP", "AnimationState"]
+- !private ["So8NSObjectP", "addSublayer"]
+- !private ["So8NSObjectP", "anchorPoint"]
+- !private ["So8NSObjectP", "animations"]
+- !private ["So8NSObjectP", "bounds"]
+- !private ["So8NSObjectP", "commit"]
+- !private ["So8NSObjectP", "contentsScale"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "mScale"]
+- !private ["So8NSObjectP", "mask"]
+- !private ["So8NSObjectP", "masksToBounds"]
+- !private ["So8NSObjectP", "needsLayer"]
+- !private ["So8NSObjectP", "opacity"]
+- !private ["So8NSObjectP", "path"]
+- !private ["So8NSObjectP", "place"]
+- !private ["So8NSObjectP", "removeFromSuperlayer"]
+- !private ["So8NSObjectP", "renderer"]
+- !private ["So8NSObjectP", "setNeedsDisplay"]
+- !private ["So8NSObjectP", "setValue"]
+- !private ["So8NSObjectP", "shouldRenderContent"]
+- !private ["So8NSObjectP", "sublayers"]
+- !private ["So8NSObjectP", "transform"]
+- !private ["So8NSObjectP", "zPosition"]
+- !private ["So14NSSecureCodingP", "addSublayer"]
+- !private ["So14NSSecureCodingP", "anchorPoint"]
+- !private ["So14NSSecureCodingP", "bounds"]
+- !private ["So14NSSecureCodingP", "contentsScale"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "mask"]
+- !private ["So14NSSecureCodingP", "masksToBounds"]
+- !private ["So14NSSecureCodingP", "opacity"]
+- !private ["So14NSSecureCodingP", "path"]
+- !private ["So14NSSecureCodingP", "removeFromSuperlayer"]
+- !private ["So14NSSecureCodingP", "renderer"]
+- !private ["So14NSSecureCodingP", "setNeedsDisplay"]
+- !private ["So14NSSecureCodingP", "shouldRenderContent"]
+- !private ["So14NSSecureCodingP", "sublayers"]
+- !private ["So14NSSecureCodingP", "transform"]
+- !private ["So14NSSecureCodingP", "zPosition"]
+- !private ["5Macaw4NodeC", "AnimationState"]
+- ["5Macaw4NodeC", "Bool"]
+- !private ["5Macaw4NodeC", "animations"]
+- !private ["5Macaw4NodeC", "bounds"]
+- ["5Macaw4NodeC", "isAnimating"]
+- ["5Macaw4NodeC", "needsLayer"]
+- !private ["5Macaw4NodeC", "opacity"]
+- !private ["5Macaw4NodeC", "place"]
+- !private ["5Macaw12NodeRendererC", "AnimationUtils"]
+- ["5Macaw12NodeRendererC", "Bool"]
+- !private ["5Macaw12NodeRendererC", "CALayer"]
+- !private ["5Macaw12NodeRendererC", "CATransaction"]
+- !private ["5Macaw12NodeRendererC", "CATransform3DMakeAffineTransform"]
+- !private ["5Macaw12NodeRendererC", "NodeRenderer"]
+- !private ["5Macaw12NodeRendererC", "deinit"]
+- ["5Macaw12NodeRendererC", "freeLayer"]
+- !private ["5Macaw12NodeRendererC", "getAllChildrenRecursive"]
+- ["5Macaw12NodeRendererC", "isAnimating"]
+- !private ["5Macaw12NodeRendererC", "kCATransactionDisableActions"]
+- !private ["5Macaw12NodeRendererC", "kCFBooleanTrue"]
+- !private ["5Macaw12NodeRendererC", "layer"]
+- !private ["5Macaw12NodeRendererC", "node"]
+- !private ["5Macaw12NodeRendererC", "parentRenderer"]
+- !private ["5Macaw12NodeRendererC", "sceneLayer"]
+- !private ["5Macaw12NodeRendererC", "view"]
+- !private ["5Macaw12NodeRendererC", "zPosition"]
+- !private ["Sj", "init"]
+- !private ["Sq", "none"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "forEach"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "forEach"]
+- !private ["Sm", "isEmpty"]
+- !private ["5Macaw4RectC", "applying"]
+- !private ["5Macaw4RectC", "h"]
+- !private ["5Macaw4RectC", "init"]
+- !private ["5Macaw4RectC", "toCG"]
+- !private ["5Macaw4RectC", "w"]
+- !private ["ST", "filter"]
+- !private ["ST", "forEach"]
+- !private ["ST", "isEmpty"]
+- !private ["5Macaw10ShapeLayerC", "addSublayer"]
+- !private ["5Macaw10ShapeLayerC", "anchorPoint"]
+- !private ["5Macaw10ShapeLayerC", "bounds"]
+- !private ["5Macaw10ShapeLayerC", "contentsScale"]
+- !private ["5Macaw10ShapeLayerC", "deinit"]
+- !private ["5Macaw10ShapeLayerC", "init"]
+- !private ["5Macaw10ShapeLayerC", "mask"]
+- !private ["5Macaw10ShapeLayerC", "masksToBounds"]
+- !private ["5Macaw10ShapeLayerC", "opacity"]
+- !private ["5Macaw10ShapeLayerC", "removeFromSuperlayer"]
+- !private ["5Macaw10ShapeLayerC", "renderer"]
+- !private ["5Macaw10ShapeLayerC", "setNeedsDisplay"]
+- !private ["5Macaw10ShapeLayerC", "shouldRenderContent"]
+- !private ["5Macaw10ShapeLayerC", "sublayers"]
+- !private ["5Macaw10ShapeLayerC", "transform"]
+- !private ["5Macaw10ShapeLayerC", "zPosition"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["5Macaw9TouchableP", "place"]
+- !private ["5Macaw9TransformC", "concat"]
+- !private ["5Macaw9TransformC", "deinit"]
+- !private ["5Macaw9TransformC", "identity"]
+- !private ["5Macaw9TransformC", "toCG"]
+- !private ["5Macaw18TransformAnimationC", "getVFunc"]
+- !private ["5Macaw22TransformInterpolationP", "concat"]
+- !private ["5Macaw22TransformInterpolationP", "identity"]
+- !private ["5Macaw22TransformInterpolationP", "toCG"]
+- !private ["So29UIAccessibilityIdentificationP", "place"]
+- !private ["So12UIAppearanceP", "place"]
+- !private ["So21UIAppearanceContainerP", "place"]
+- !private ["So17UICoordinateSpaceP", "place"]
+- !private ["So13UIDynamicItemP", "place"]
+- !private ["So18UIFocusEnvironmentP", "place"]
+- !private ["So11UIFocusItemP", "place"]
+- !private ["So20UIFocusItemContainerP", "place"]
+- !private ["So30UIPasteConfigurationSupportingP", "place"]
+- !private ["So11UIResponderC", "place"]
+- !private ["So30UIResponderStandardEditActionsP", "place"]
+- !private ["So8UIScreenC", "mScale"]
+- !private ["So18UITraitEnvironmentP", "mScale"]
+- !private ["So18UITraitEnvironmentP", "place"]
+- !private ["So23UIUserActivityRestoringP", "place"]
+- !private ["So6UIViewC", "place"]
+- !private ["9SWXMLHash26XMLAttributeDeserializableP", "_getBuiltinLogicValue"]
+- !private ["9SWXMLHash26XMLAttributeDeserializableP", "init"]
+- !private ["9SWXMLHash24XMLElementDeserializableP", "_getBuiltinLogicValue"]
+- !private ["9SWXMLHash24XMLElementDeserializableP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "place"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AnimationState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSublayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "anchorPoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "commit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentsScale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mScale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "masksToBounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "needsLayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "opacity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "place"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeFromSuperlayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "renderer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setNeedsDisplay"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shouldRenderContent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sublayers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "transform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "zPosition"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "none"]
+- !private ["s21_ObjectiveCBridgeableP", "origin"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s21_ObjectiveCBridgeableP", "x"]
+- !private ["s21_ObjectiveCBridgeableP", "y"]
+depends-nominal:
+- !private "5Macaw13AbsoluteUtilsC"
+- !private "5Macaw9AnimationC"
+- !private "5Macaw13AnimationImplC"
+- !private "5Macaw17AnimationObserverP"
+- !private "5Macaw14AnimationStateO"
+- "5Macaw14AnimationUtilsC"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "5Macaw14BasicAnimationC"
+- !private "SK"
+- !private "SB"
+- !private "Sb"
+- !private "So7CALayerC"
+- !private "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- !private "So12CAShapeLayerC"
+- !private "So13CATransactionC"
+- !private "12CoreGraphics7CGFloatV"
+- !private "So7CGPointV"
+- !private "So6CGRectV"
+- !private "s7CVarArgP"
+- !private "5Macaw11CachedLayerC"
+- !private "Sl"
+- !private "SL"
+- !private "5Macaw21ContentsInterpolationP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- "5Macaw8DrawableC"
+- !private "5Macaw11DrawingViewC"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "Sf"
+- !private "SF"
+- !private "SH"
+- !private "5Macaw12InterpolableP"
+- !private "5Macaw5LocusC"
+- !private "5Macaw18LocusInterpolationP"
+- !private "s25LosslessStringConvertibleP"
+- !private "5Macaw5MViewC"
+- !private "SM"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "5Macaw4NodeC"
+- "5Macaw12NodeRendererC"
+- !private "Sj"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "5Macaw4RectC"
+- !private "ST"
+- !private "5Macaw10ShapeLayerC"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "5Macaw9TouchableP"
+- !private "5Macaw9TransformC"
+- !private "5Macaw18TransformAnimationC"
+- !private "5Macaw22TransformInterpolationP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So8UIScreenC"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "9SWXMLHash26XMLAttributeDeserializableP"
+- !private "9SWXMLHash24XMLElementDeserializableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/SWXMLHash/SWXMLHash.framework/Modules/SWXMLHash.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/Target Support Files/SWXMLHash/SWXMLHash-umbrella.h"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/Target Support Files/Macaw/Macaw-umbrella.h"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/SWXMLHash/SWXMLHash.framework/Headers/SWXMLHash-Swift.h"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Pods.build/Debug-iphonesimulator/Macaw.build/unextended-module.modulemap"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Pods.build/Debug-iphonesimulator/SWXMLHash.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c7904055021c0733f6ed36d38a9b7249"

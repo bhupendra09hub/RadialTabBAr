@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "78b1a0dd56031786361a86fa32dd9abb"
+build_time: [1596534100, 190126000]
+inputs:
+  "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/FanMenu/Sources/FanMenu.swift": [1596533816, 0]
+  "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/Macaw/Source/svg/SVGParser.swift": !dirty [1596534055, 0]

@@ -1,0 +1,487 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Color"
+provides-nominal:
+- "5Macaw5ColorC"
+provides-member:
+- ["5Macaw5ColorC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&"
+- !private "*"
+- !private "-"
+- !private "<<"
+- !private "=="
+- !private ">>"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Color"
+- "Double"
+- "Fill"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- !private "StringLiteralType"
+- !private "|"
+depends-member:
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "init"]
+- ["5Macaw5ColorC", "Bool"]
+- ["5Macaw5ColorC", "Color"]
+- ["5Macaw5ColorC", "Double"]
+- ["5Macaw5ColorC", "Fill"]
+- ["5Macaw5ColorC", "Int"]
+- ["5Macaw5ColorC", "a"]
+- ["5Macaw5ColorC", "aliceBlue"]
+- ["5Macaw5ColorC", "antiqueWhite"]
+- ["5Macaw5ColorC", "aqua"]
+- ["5Macaw5ColorC", "aquamarine"]
+- ["5Macaw5ColorC", "azure"]
+- ["5Macaw5ColorC", "b"]
+- ["5Macaw5ColorC", "beige"]
+- ["5Macaw5ColorC", "bisque"]
+- ["5Macaw5ColorC", "black"]
+- ["5Macaw5ColorC", "blanchedAlmond"]
+- ["5Macaw5ColorC", "blue"]
+- ["5Macaw5ColorC", "blueViolet"]
+- ["5Macaw5ColorC", "brown"]
+- ["5Macaw5ColorC", "burlywood"]
+- ["5Macaw5ColorC", "cadetBlue"]
+- ["5Macaw5ColorC", "chartreuse"]
+- ["5Macaw5ColorC", "chocolate"]
+- ["5Macaw5ColorC", "clear"]
+- ["5Macaw5ColorC", "coral"]
+- ["5Macaw5ColorC", "cornflowerBlue"]
+- ["5Macaw5ColorC", "cornsilk"]
+- ["5Macaw5ColorC", "crimson"]
+- ["5Macaw5ColorC", "cyan"]
+- ["5Macaw5ColorC", "darkBlue"]
+- ["5Macaw5ColorC", "darkCyan"]
+- ["5Macaw5ColorC", "darkGoldenrod"]
+- ["5Macaw5ColorC", "darkGray"]
+- ["5Macaw5ColorC", "darkGreen"]
+- ["5Macaw5ColorC", "darkKhaki"]
+- ["5Macaw5ColorC", "darkMagenta"]
+- ["5Macaw5ColorC", "darkOliveGreen"]
+- ["5Macaw5ColorC", "darkOrange"]
+- ["5Macaw5ColorC", "darkOrchid"]
+- ["5Macaw5ColorC", "darkRed"]
+- ["5Macaw5ColorC", "darkSalmon"]
+- ["5Macaw5ColorC", "darkSeaGreen"]
+- ["5Macaw5ColorC", "darkSlateBlue"]
+- ["5Macaw5ColorC", "darkSlateGray"]
+- ["5Macaw5ColorC", "darkTurquoise"]
+- ["5Macaw5ColorC", "darkViolet"]
+- ["5Macaw5ColorC", "deepPink"]
+- ["5Macaw5ColorC", "deepSkyBlue"]
+- ["5Macaw5ColorC", "deinit"]
+- ["5Macaw5ColorC", "dimGray"]
+- ["5Macaw5ColorC", "dodgerBlue"]
+- ["5Macaw5ColorC", "equals"]
+- ["5Macaw5ColorC", "firebrick"]
+- ["5Macaw5ColorC", "floralWhite"]
+- ["5Macaw5ColorC", "forestGreen"]
+- ["5Macaw5ColorC", "fuchsia"]
+- ["5Macaw5ColorC", "g"]
+- ["5Macaw5ColorC", "gainsboro"]
+- ["5Macaw5ColorC", "ghostWhite"]
+- ["5Macaw5ColorC", "gold"]
+- ["5Macaw5ColorC", "goldenrod"]
+- ["5Macaw5ColorC", "gray"]
+- ["5Macaw5ColorC", "green"]
+- ["5Macaw5ColorC", "greenYellow"]
+- ["5Macaw5ColorC", "honeydew"]
+- ["5Macaw5ColorC", "hotPink"]
+- ["5Macaw5ColorC", "indianRed"]
+- ["5Macaw5ColorC", "indigo"]
+- ["5Macaw5ColorC", "init"]
+- ["5Macaw5ColorC", "ivory"]
+- ["5Macaw5ColorC", "khaki"]
+- ["5Macaw5ColorC", "lavender"]
+- ["5Macaw5ColorC", "lavenderBlush"]
+- ["5Macaw5ColorC", "lawnGreen"]
+- ["5Macaw5ColorC", "lemonChiffon"]
+- ["5Macaw5ColorC", "lightBlue"]
+- ["5Macaw5ColorC", "lightCoral"]
+- ["5Macaw5ColorC", "lightCyan"]
+- ["5Macaw5ColorC", "lightGoldenrodYellow"]
+- ["5Macaw5ColorC", "lightGray"]
+- ["5Macaw5ColorC", "lightGreen"]
+- ["5Macaw5ColorC", "lightPink"]
+- ["5Macaw5ColorC", "lightSalmon"]
+- ["5Macaw5ColorC", "lightSeaGreen"]
+- ["5Macaw5ColorC", "lightSkyBlue"]
+- ["5Macaw5ColorC", "lightSlateGray"]
+- ["5Macaw5ColorC", "lightSteelBlue"]
+- ["5Macaw5ColorC", "lightYellow"]
+- ["5Macaw5ColorC", "lime"]
+- ["5Macaw5ColorC", "limeGreen"]
+- ["5Macaw5ColorC", "linen"]
+- ["5Macaw5ColorC", "maroon"]
+- ["5Macaw5ColorC", "mediumAquamarine"]
+- ["5Macaw5ColorC", "mediumBlue"]
+- ["5Macaw5ColorC", "mediumOrchid"]
+- ["5Macaw5ColorC", "mediumPurple"]
+- ["5Macaw5ColorC", "mediumSeaGreen"]
+- ["5Macaw5ColorC", "mediumSlateBlue"]
+- ["5Macaw5ColorC", "mediumSpringGreen"]
+- ["5Macaw5ColorC", "mediumTurquoise"]
+- ["5Macaw5ColorC", "mediumVioletRed"]
+- ["5Macaw5ColorC", "midnightBlue"]
+- ["5Macaw5ColorC", "mintCream"]
+- ["5Macaw5ColorC", "mistyRose"]
+- ["5Macaw5ColorC", "moccasin"]
+- ["5Macaw5ColorC", "navajoWhite"]
+- ["5Macaw5ColorC", "navy"]
+- ["5Macaw5ColorC", "oldLace"]
+- ["5Macaw5ColorC", "olive"]
+- ["5Macaw5ColorC", "oliveDrab"]
+- ["5Macaw5ColorC", "orange"]
+- ["5Macaw5ColorC", "orangeRed"]
+- ["5Macaw5ColorC", "orchid"]
+- ["5Macaw5ColorC", "paleGoldenrod"]
+- ["5Macaw5ColorC", "paleGreen"]
+- ["5Macaw5ColorC", "paleTurquoise"]
+- ["5Macaw5ColorC", "paleVioletRed"]
+- ["5Macaw5ColorC", "papayaWhip"]
+- ["5Macaw5ColorC", "peachPuff"]
+- ["5Macaw5ColorC", "peru"]
+- ["5Macaw5ColorC", "pink"]
+- ["5Macaw5ColorC", "plum"]
+- ["5Macaw5ColorC", "powderBlue"]
+- ["5Macaw5ColorC", "purple"]
+- ["5Macaw5ColorC", "r"]
+- ["5Macaw5ColorC", "rebeccaPurple"]
+- ["5Macaw5ColorC", "red"]
+- ["5Macaw5ColorC", "rgb"]
+- ["5Macaw5ColorC", "rgba"]
+- ["5Macaw5ColorC", "rgbt"]
+- ["5Macaw5ColorC", "rosyBrown"]
+- ["5Macaw5ColorC", "royalBlue"]
+- ["5Macaw5ColorC", "saddleBrown"]
+- ["5Macaw5ColorC", "salmon"]
+- ["5Macaw5ColorC", "sandyBrown"]
+- ["5Macaw5ColorC", "seaGreen"]
+- ["5Macaw5ColorC", "seashell"]
+- ["5Macaw5ColorC", "sienna"]
+- ["5Macaw5ColorC", "silver"]
+- ["5Macaw5ColorC", "skyBlue"]
+- ["5Macaw5ColorC", "slateBlue"]
+- ["5Macaw5ColorC", "slateGray"]
+- ["5Macaw5ColorC", "snow"]
+- ["5Macaw5ColorC", "springGreen"]
+- ["5Macaw5ColorC", "steelBlue"]
+- ["5Macaw5ColorC", "tan"]
+- ["5Macaw5ColorC", "teal"]
+- ["5Macaw5ColorC", "thistle"]
+- ["5Macaw5ColorC", "tomato"]
+- ["5Macaw5ColorC", "turquoise"]
+- ["5Macaw5ColorC", "val"]
+- ["5Macaw5ColorC", "violet"]
+- ["5Macaw5ColorC", "wheat"]
+- ["5Macaw5ColorC", "white"]
+- ["5Macaw5ColorC", "whiteSmoke"]
+- ["5Macaw5ColorC", "with"]
+- ["5Macaw5ColorC", "yellow"]
+- ["5Macaw5ColorC", "yellowGreen"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- ["SQ", "Color"]
+- !private ["SQ", "Int"]
+- ["SQ", ""]
+- !private ["SQ", "b"]
+- !private ["SQ", "g"]
+- ["SQ", "init"]
+- !private ["SQ", "r"]
+- ["SQ", "rgba"]
+- !private ["SQ", "rgbt"]
+- !private ["SQ", "val"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["5Macaw4FillC", "Bool"]
+- ["5Macaw4FillC", "Color"]
+- ["5Macaw4FillC", "Double"]
+- ["5Macaw4FillC", "Fill"]
+- ["5Macaw4FillC", "Int"]
+- ["5Macaw4FillC", ""]
+- ["5Macaw4FillC", "a"]
+- ["5Macaw4FillC", "aliceBlue"]
+- ["5Macaw4FillC", "antiqueWhite"]
+- ["5Macaw4FillC", "aqua"]
+- ["5Macaw4FillC", "aquamarine"]
+- ["5Macaw4FillC", "azure"]
+- ["5Macaw4FillC", "b"]
+- ["5Macaw4FillC", "beige"]
+- ["5Macaw4FillC", "bisque"]
+- ["5Macaw4FillC", "black"]
+- ["5Macaw4FillC", "blanchedAlmond"]
+- ["5Macaw4FillC", "blue"]
+- ["5Macaw4FillC", "blueViolet"]
+- ["5Macaw4FillC", "brown"]
+- ["5Macaw4FillC", "burlywood"]
+- ["5Macaw4FillC", "cadetBlue"]
+- ["5Macaw4FillC", "chartreuse"]
+- ["5Macaw4FillC", "chocolate"]
+- ["5Macaw4FillC", "clear"]
+- ["5Macaw4FillC", "coral"]
+- ["5Macaw4FillC", "cornflowerBlue"]
+- ["5Macaw4FillC", "cornsilk"]
+- ["5Macaw4FillC", "crimson"]
+- ["5Macaw4FillC", "cyan"]
+- ["5Macaw4FillC", "darkBlue"]
+- ["5Macaw4FillC", "darkCyan"]
+- ["5Macaw4FillC", "darkGoldenrod"]
+- ["5Macaw4FillC", "darkGray"]
+- ["5Macaw4FillC", "darkGreen"]
+- ["5Macaw4FillC", "darkKhaki"]
+- ["5Macaw4FillC", "darkMagenta"]
+- ["5Macaw4FillC", "darkOliveGreen"]
+- ["5Macaw4FillC", "darkOrange"]
+- ["5Macaw4FillC", "darkOrchid"]
+- ["5Macaw4FillC", "darkRed"]
+- ["5Macaw4FillC", "darkSalmon"]
+- ["5Macaw4FillC", "darkSeaGreen"]
+- ["5Macaw4FillC", "darkSlateBlue"]
+- ["5Macaw4FillC", "darkSlateGray"]
+- ["5Macaw4FillC", "darkTurquoise"]
+- ["5Macaw4FillC", "darkViolet"]
+- ["5Macaw4FillC", "deepPink"]
+- ["5Macaw4FillC", "deepSkyBlue"]
+- ["5Macaw4FillC", "dimGray"]
+- ["5Macaw4FillC", "dodgerBlue"]
+- ["5Macaw4FillC", "equals"]
+- ["5Macaw4FillC", "firebrick"]
+- ["5Macaw4FillC", "floralWhite"]
+- ["5Macaw4FillC", "forestGreen"]
+- ["5Macaw4FillC", "fuchsia"]
+- ["5Macaw4FillC", "g"]
+- ["5Macaw4FillC", "gainsboro"]
+- ["5Macaw4FillC", "ghostWhite"]
+- ["5Macaw4FillC", "gold"]
+- ["5Macaw4FillC", "goldenrod"]
+- ["5Macaw4FillC", "gray"]
+- ["5Macaw4FillC", "green"]
+- ["5Macaw4FillC", "greenYellow"]
+- ["5Macaw4FillC", "honeydew"]
+- ["5Macaw4FillC", "hotPink"]
+- ["5Macaw4FillC", "indianRed"]
+- ["5Macaw4FillC", "indigo"]
+- ["5Macaw4FillC", "init"]
+- ["5Macaw4FillC", "ivory"]
+- ["5Macaw4FillC", "khaki"]
+- ["5Macaw4FillC", "lavender"]
+- ["5Macaw4FillC", "lavenderBlush"]
+- ["5Macaw4FillC", "lawnGreen"]
+- ["5Macaw4FillC", "lemonChiffon"]
+- ["5Macaw4FillC", "lightBlue"]
+- ["5Macaw4FillC", "lightCoral"]
+- ["5Macaw4FillC", "lightCyan"]
+- ["5Macaw4FillC", "lightGoldenrodYellow"]
+- ["5Macaw4FillC", "lightGray"]
+- ["5Macaw4FillC", "lightGreen"]
+- ["5Macaw4FillC", "lightPink"]
+- ["5Macaw4FillC", "lightSalmon"]
+- ["5Macaw4FillC", "lightSeaGreen"]
+- ["5Macaw4FillC", "lightSkyBlue"]
+- ["5Macaw4FillC", "lightSlateGray"]
+- ["5Macaw4FillC", "lightSteelBlue"]
+- ["5Macaw4FillC", "lightYellow"]
+- ["5Macaw4FillC", "lime"]
+- ["5Macaw4FillC", "limeGreen"]
+- ["5Macaw4FillC", "linen"]
+- ["5Macaw4FillC", "maroon"]
+- ["5Macaw4FillC", "mediumAquamarine"]
+- ["5Macaw4FillC", "mediumBlue"]
+- ["5Macaw4FillC", "mediumOrchid"]
+- ["5Macaw4FillC", "mediumPurple"]
+- ["5Macaw4FillC", "mediumSeaGreen"]
+- ["5Macaw4FillC", "mediumSlateBlue"]
+- ["5Macaw4FillC", "mediumSpringGreen"]
+- ["5Macaw4FillC", "mediumTurquoise"]
+- ["5Macaw4FillC", "mediumVioletRed"]
+- ["5Macaw4FillC", "midnightBlue"]
+- ["5Macaw4FillC", "mintCream"]
+- ["5Macaw4FillC", "mistyRose"]
+- ["5Macaw4FillC", "moccasin"]
+- ["5Macaw4FillC", "navajoWhite"]
+- ["5Macaw4FillC", "navy"]
+- ["5Macaw4FillC", "oldLace"]
+- ["5Macaw4FillC", "olive"]
+- ["5Macaw4FillC", "oliveDrab"]
+- ["5Macaw4FillC", "orange"]
+- ["5Macaw4FillC", "orangeRed"]
+- ["5Macaw4FillC", "orchid"]
+- ["5Macaw4FillC", "paleGoldenrod"]
+- ["5Macaw4FillC", "paleGreen"]
+- ["5Macaw4FillC", "paleTurquoise"]
+- ["5Macaw4FillC", "paleVioletRed"]
+- ["5Macaw4FillC", "papayaWhip"]
+- ["5Macaw4FillC", "peachPuff"]
+- ["5Macaw4FillC", "peru"]
+- ["5Macaw4FillC", "pink"]
+- ["5Macaw4FillC", "plum"]
+- ["5Macaw4FillC", "powderBlue"]
+- ["5Macaw4FillC", "purple"]
+- ["5Macaw4FillC", "r"]
+- ["5Macaw4FillC", "rebeccaPurple"]
+- ["5Macaw4FillC", "red"]
+- ["5Macaw4FillC", "rgb"]
+- ["5Macaw4FillC", "rgba"]
+- ["5Macaw4FillC", "rgbt"]
+- ["5Macaw4FillC", "rosyBrown"]
+- ["5Macaw4FillC", "royalBlue"]
+- ["5Macaw4FillC", "saddleBrown"]
+- ["5Macaw4FillC", "salmon"]
+- ["5Macaw4FillC", "sandyBrown"]
+- ["5Macaw4FillC", "seaGreen"]
+- ["5Macaw4FillC", "seashell"]
+- ["5Macaw4FillC", "sienna"]
+- ["5Macaw4FillC", "silver"]
+- ["5Macaw4FillC", "skyBlue"]
+- ["5Macaw4FillC", "slateBlue"]
+- ["5Macaw4FillC", "slateGray"]
+- ["5Macaw4FillC", "snow"]
+- ["5Macaw4FillC", "springGreen"]
+- ["5Macaw4FillC", "steelBlue"]
+- ["5Macaw4FillC", "tan"]
+- ["5Macaw4FillC", "teal"]
+- ["5Macaw4FillC", "thistle"]
+- ["5Macaw4FillC", "tomato"]
+- ["5Macaw4FillC", "turquoise"]
+- ["5Macaw4FillC", "val"]
+- ["5Macaw4FillC", "violet"]
+- ["5Macaw4FillC", "wheat"]
+- ["5Macaw4FillC", "white"]
+- ["5Macaw4FillC", "whiteSmoke"]
+- ["5Macaw4FillC", "with"]
+- ["5Macaw4FillC", "yellow"]
+- ["5Macaw4FillC", "yellowGreen"]
+- ["5Macaw17FillInterpolationP", "Color"]
+- !private ["5Macaw17FillInterpolationP", "Int"]
+- ["5Macaw17FillInterpolationP", ""]
+- !private ["5Macaw17FillInterpolationP", "b"]
+- !private ["5Macaw17FillInterpolationP", "g"]
+- ["5Macaw17FillInterpolationP", "init"]
+- !private ["5Macaw17FillInterpolationP", "r"]
+- ["5Macaw17FillInterpolationP", "rgba"]
+- !private ["5Macaw17FillInterpolationP", "rgbt"]
+- !private ["5Macaw17FillInterpolationP", "val"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "init"]
+- !private ["Si", "init"]
+- ["5Macaw12InterpolableP", "Color"]
+- !private ["5Macaw12InterpolableP", "Int"]
+- ["5Macaw12InterpolableP", ""]
+- !private ["5Macaw12InterpolableP", "b"]
+- !private ["5Macaw12InterpolableP", "g"]
+- ["5Macaw12InterpolableP", "init"]
+- !private ["5Macaw12InterpolableP", "r"]
+- ["5Macaw12InterpolableP", "rgba"]
+- !private ["5Macaw12InterpolableP", "rgbt"]
+- !private ["5Macaw12InterpolableP", "val"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["Sj", "init"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- !private ["9SWXMLHash26XMLAttributeDeserializableP", "init"]
+- !private ["9SWXMLHash24XMLElementDeserializableP", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "Sz"
+- !private "s7CVarArgP"
+- "5Macaw5ColorC"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "5Macaw4FillC"
+- "5Macaw17FillInterpolationP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "Si"
+- "5Macaw12InterpolableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "Sj"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "Sx"
+- !private "9SWXMLHash26XMLAttributeDeserializableP"
+- !private "9SWXMLHash24XMLElementDeserializableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/SWXMLHash/SWXMLHash.framework/Modules/SWXMLHash.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/Target Support Files/SWXMLHash/SWXMLHash-umbrella.h"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/Target Support Files/Macaw/Macaw-umbrella.h"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/SWXMLHash/SWXMLHash.framework/Headers/SWXMLHash-Swift.h"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Pods.build/Debug-iphonesimulator/Macaw.build/unextended-module.modulemap"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Pods.build/Debug-iphonesimulator/SWXMLHash.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "96aadf4a1aba09f790a66909fd7bb75e"

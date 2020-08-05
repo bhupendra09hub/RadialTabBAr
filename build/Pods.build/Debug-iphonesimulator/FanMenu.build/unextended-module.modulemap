@@ -1,0 +1,10 @@
+framework module FanMenu {
+  umbrella header "FanMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module FanMenu.__Swift {
+    exclude header "FanMenu-Swift.h"
+}

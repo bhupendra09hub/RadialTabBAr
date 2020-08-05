@@ -1,0 +1,11 @@
+framework module FanMenu {
+  umbrella header "FanMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module FanMenu.Swift {
+    header "FanMenu-Swift.h"
+    requires objc
+}

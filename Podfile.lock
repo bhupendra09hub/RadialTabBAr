@@ -1,0 +1,24 @@
+PODS:
+  - FanMenu (0.7.5):
+    - Macaw
+  - Macaw (0.9.7):
+    - SWXMLHash
+  - SWXMLHash (5.0.1)
+
+DEPENDENCIES:
+  - FanMenu (~> 0.7)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FanMenu
+    - Macaw
+    - SWXMLHash
+
+SPEC CHECKSUMS:
+  FanMenu: f26be76147954666be0b89ae6ffeb12b72167f2b
+  Macaw: 4a931baf9a9826b06d0d8ecf300014c962ab9d50
+  SWXMLHash: 9cc0c2e4807926c74377724aa8722ee5707a0485
+
+PODFILE CHECKSUM: 006f8f9f77115c0211d23151b449838fca82e557
+
+COCOAPODS: 1.7.4

@@ -1,0 +1,441 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MacawZoom"
+provides-nominal:
+- "5Macaw0A4ZoomC"
+provides-member:
+- ["5Macaw0A4ZoomC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "/"
+- !private "<"
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Double"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "MTouch"
+- "MacawView"
+- "MacawZoom"
+- "Point"
+- "Set"
+- "Size"
+- "TernaryPrecedence"
+- "TouchData"
+- "Transform"
+- "Void"
+- "ZoomData"
+- !private "cos"
+- !private "sin"
+- !private "||"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "filter"]
+- ["Sa", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "map"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "filter"]
+- ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "isEmpty"]
+- !private ["s13ArrayProtocolP", "map"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "filter"]
+- ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "map"]
+- !private ["SK", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "isMultipleTouchEnabled"]
+- !private ["So7CGPointV", "toMacaw"]
+- !private ["s7CVarArgP", "Phase"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "filter"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "isMultipleTouchEnabled"]
+- !private ["s7CVarArgP", "location"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "phase"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "filter"]
+- ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- !private ["5Macaw21ContentsInterpolationP", "append"]
+- !private ["5Macaw21ContentsInterpolationP", "count"]
+- !private ["5Macaw21ContentsInterpolationP", "filter"]
+- ["5Macaw21ContentsInterpolationP", "init"]
+- !private ["5Macaw21ContentsInterpolationP", "isEmpty"]
+- !private ["5Macaw21ContentsInterpolationP", "map"]
+- !private ["5Macaw21ContentsInterpolationP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "Phase"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "isMultipleTouchEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "location"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "phase"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "toMacaw"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "toMacaw"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "filter"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "toMacaw"]
+- !private ["s23CustomStringConvertibleP", "Phase"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "isMultipleTouchEnabled"]
+- !private ["s23CustomStringConvertibleP", "location"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "phase"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "filter"]
+- ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["Se", "toMacaw"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "filter"]
+- ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- !private ["SE", "toMacaw"]
+- !private ["SQ", "Phase"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "angle"]
+- !private ["SQ", "append"]
+- !private ["SQ", "count"]
+- !private ["SQ", "distance"]
+- !private ["SQ", "ended"]
+- !private ["SQ", "filter"]
+- ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "isMultipleTouchEnabled"]
+- !private ["SQ", "location"]
+- !private ["SQ", "map"]
+- !private ["SQ", "move"]
+- !private ["SQ", "phase"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "rotate"]
+- !private ["SQ", "scale"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "toMacaw"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["SH", "Phase"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "append"]
+- !private ["SH", "count"]
+- !private ["SH", "ended"]
+- !private ["SH", "filter"]
+- ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "isMultipleTouchEnabled"]
+- !private ["SH", "location"]
+- !private ["SH", "map"]
+- !private ["SH", "move"]
+- !private ["SH", "phase"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "rotate"]
+- !private ["SH", "scale"]
+- !private ["SH", "subscript"]
+- !private ["5Macaw12InterpolableP", "angle"]
+- !private ["5Macaw12InterpolableP", "append"]
+- !private ["5Macaw12InterpolableP", "count"]
+- !private ["5Macaw12InterpolableP", "distance"]
+- !private ["5Macaw12InterpolableP", "filter"]
+- ["5Macaw12InterpolableP", "init"]
+- !private ["5Macaw12InterpolableP", "isEmpty"]
+- !private ["5Macaw12InterpolableP", "map"]
+- !private ["5Macaw12InterpolableP", "move"]
+- !private ["5Macaw12InterpolableP", "rotate"]
+- !private ["5Macaw12InterpolableP", "scale"]
+- !private ["5Macaw12InterpolableP", "subscript"]
+- !private ["5Macaw5LocusC", "angle"]
+- !private ["5Macaw5LocusC", "distance"]
+- !private ["5Macaw18LocusInterpolationP", "angle"]
+- !private ["5Macaw18LocusInterpolationP", "distance"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["5Macaw5MViewC", "isMultipleTouchEnabled"]
+- !private ["5Macaw0A4ViewC", "isMultipleTouchEnabled"]
+- ["5Macaw0A4ZoomC", "Bool"]
+- ["5Macaw0A4ZoomC", "Double"]
+- ["5Macaw0A4ZoomC", "MTouch"]
+- ["5Macaw0A4ZoomC", "MacawView"]
+- ["5Macaw0A4ZoomC", "Set"]
+- ["5Macaw0A4ZoomC", "Size"]
+- ["5Macaw0A4ZoomC", "TouchData"]
+- ["5Macaw0A4ZoomC", "Transform"]
+- ["5Macaw0A4ZoomC", "Void"]
+- ["5Macaw0A4ZoomC", "ZoomData"]
+- !private ["5Macaw0A4ZoomC", "cleanTouches"]
+- ["5Macaw0A4ZoomC", "deinit"]
+- ["5Macaw0A4ZoomC", "disable"]
+- ["5Macaw0A4ZoomC", "enable"]
+- !private ["5Macaw0A4ZoomC", "getNewZoom"]
+- ["5Macaw0A4ZoomC", "init"]
+- ["5Macaw0A4ZoomC", "initialize"]
+- !private ["5Macaw0A4ZoomC", "onChange"]
+- ["5Macaw0A4ZoomC", "set"]
+- !private ["5Macaw0A4ZoomC", "touches"]
+- ["5Macaw0A4ZoomC", "touchesBegan"]
+- ["5Macaw0A4ZoomC", "touchesEnded"]
+- ["5Macaw0A4ZoomC", "touchesMoved"]
+- !private ["5Macaw0A4ZoomC", "trackMove"]
+- !private ["5Macaw0A4ZoomC", "trackRotate"]
+- !private ["5Macaw0A4ZoomC", "trackScale"]
+- !private ["5Macaw0A4ZoomC", "view"]
+- !private ["5Macaw0A4ZoomC", "zoomData"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "filter"]
+- ["SM", "init"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "map"]
+- !private ["SM", "subscript"]
+- !private ["So8NSCodingP", "isMultipleTouchEnabled"]
+- !private ["So8NSObjectC", "Phase"]
+- !private ["So8NSObjectC", "isMultipleTouchEnabled"]
+- !private ["So8NSObjectC", "location"]
+- !private ["So8NSObjectC", "phase"]
+- !private ["So8NSObjectP", "Phase"]
+- !private ["So8NSObjectP", "isMultipleTouchEnabled"]
+- !private ["So8NSObjectP", "location"]
+- !private ["So8NSObjectP", "phase"]
+- !private ["So12UITouchPhaseV", "ended"]
+- !private ["So12UITouchPhaseV", "rawValue"]
+- !private ["5Macaw5PointC", "angle"]
+- !private ["5Macaw5PointC", "distance"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "filter"]
+- ["Sk", "init"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "map"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "filter"]
+- ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "map"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "ended"]
+- !private ["SY", "rawValue"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "filter"]
+- ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- !private ["Sh", "map"]
+- !private ["s10SetAlgebraP", "map"]
+- !private ["5Macaw4SizeC", "angle"]
+- !private ["5Macaw4SizeC", "h"]
+- !private ["5Macaw4SizeC", "init"]
+- !private ["5Macaw4SizeC", "w"]
+- !private ["5Macaw4SizeC", "zero"]
+- !private ["5Macaw9TouchableP", "isMultipleTouchEnabled"]
+- !private ["5Macaw9TransformC", "move"]
+- !private ["5Macaw9TransformC", "rotate"]
+- !private ["5Macaw9TransformC", "scale"]
+- !private ["5Macaw22TransformInterpolationP", "move"]
+- !private ["5Macaw22TransformInterpolationP", "rotate"]
+- !private ["5Macaw22TransformInterpolationP", "scale"]
+- !private ["So29UIAccessibilityIdentificationP", "isMultipleTouchEnabled"]
+- !private ["So12UIAppearanceP", "isMultipleTouchEnabled"]
+- !private ["So21UIAppearanceContainerP", "isMultipleTouchEnabled"]
+- !private ["So17UICoordinateSpaceP", "isMultipleTouchEnabled"]
+- !private ["So13UIDynamicItemP", "isMultipleTouchEnabled"]
+- !private ["So18UIFocusEnvironmentP", "isMultipleTouchEnabled"]
+- !private ["So11UIFocusItemP", "isMultipleTouchEnabled"]
+- !private ["So20UIFocusItemContainerP", "isMultipleTouchEnabled"]
+- !private ["So27UIGestureRecognizerDelegateP", "isMultipleTouchEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "isMultipleTouchEnabled"]
+- !private ["So11UIResponderC", "isMultipleTouchEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "isMultipleTouchEnabled"]
+- !private ["So7UITouchC", "Phase"]
+- !private ["So7UITouchC", "location"]
+- !private ["So7UITouchC", "phase"]
+- !private ["So18UITraitEnvironmentP", "isMultipleTouchEnabled"]
+- !private ["So23UIUserActivityRestoringP", "isMultipleTouchEnabled"]
+- !private ["So6UIViewC", "isMultipleTouchEnabled"]
+- !private ["9SWXMLHash26XMLAttributeDeserializableP", "_getBuiltinLogicValue"]
+- !private ["9SWXMLHash24XMLElementDeserializableP", "_getBuiltinLogicValue"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isMultipleTouchEnabled"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Phase"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isMultipleTouchEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "location"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "phase"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "toMacaw"]
+depends-nominal:
+- "Sa"
+- "s13ArrayProtocolP"
+- "SK"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "So7CGPointV"
+- "s7CVarArgP"
+- "Sl"
+- "5Macaw21ContentsInterpolationP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "SH"
+- "5Macaw12InterpolableP"
+- !private "5Macaw5LocusC"
+- !private "5Macaw18LocusInterpolationP"
+- !private "s25LosslessStringConvertibleP"
+- !private "5Macaw5MViewC"
+- !private "5Macaw0A4ViewC"
+- "5Macaw0A4ZoomC"
+- "SM"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So12UITouchPhaseV"
+- !private "5Macaw5PointC"
+- "Sk"
+- "Sm"
+- !private "SY"
+- "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- !private "5Macaw4SizeC"
+- !private "5Macaw9TouchableP"
+- !private "5Macaw9TransformC"
+- !private "5Macaw22TransformInterpolationP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So27UIGestureRecognizerDelegateP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So7UITouchC"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "9SWXMLHash26XMLAttributeDeserializableP"
+- !private "9SWXMLHash24XMLElementDeserializableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/SWXMLHash/SWXMLHash.framework/Modules/SWXMLHash.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/Target Support Files/SWXMLHash/SWXMLHash-umbrella.h"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/Pods/Target Support Files/Macaw/Macaw-umbrella.h"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Debug-iphonesimulator/SWXMLHash/SWXMLHash.framework/Headers/SWXMLHash-Swift.h"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Pods.build/Debug-iphonesimulator/Macaw.build/unextended-module.modulemap"
+- "/Users/mac/Documents/Bhupendra/RedialAnimateMenuBar/build/Pods.build/Debug-iphonesimulator/SWXMLHash.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "21d32a61c85046682e2a4bfd3c8c2dee"
